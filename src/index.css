@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── react-grid-layout core styles ──────────────────────────── */
+.react-grid-layout {
+  position: relative;
+  transition: height 200ms ease;
+}
+
+.react-grid-item {
+  transition: all 200ms ease;
+  transition-property: left, top, width, height;
+}
+
+.react-grid-item.cssTransforms {
+  transition-property: transform, width, height;
+}
+
+.react-grid-item.resizing {
+  z-index: 1;
+  will-change: width, height;
+  opacity: 0.95;
+}
+
+.react-grid-item.react-draggable-dragging {
+  transition: none;
+  z-index: 3;
+  will-change: transform;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.react-grid-item > .react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.react-grid-item > .react-resizable-handle::after {
+  content: "";
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid rgba(100, 116, 139, 0.4);
+  border-bottom: 2px solid rgba(100, 116, 139, 0.4);
+  border-radius: 0 0 2px 0;
+}
+
+.react-grid-item > .react-resizable-handle-se {
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+}
+
+/* ─── react-grid-layout placeholder ─────────────────────────── */
+.react-grid-placeholder {
+  background: rgba(99, 102, 241, 0.15);
+  border: 2px dashed rgba(99, 102, 241, 0.4);
+  border-radius: 12px;
+  opacity: 1;
+  transition: all 150ms ease;
+}
+
+/* ─── Widget chrome ──────────────────────────────────────────── */
+.widget-card {
+  @apply bg-white rounded-xl border border-surface-200 shadow-sm h-full flex flex-col overflow-hidden;
+  transition: box-shadow 200ms ease, border-color 200ms ease;
+}
+
+.widget-card:hover {
+  @apply shadow-md border-surface-300;
+}
+
+.widget-drag-handle {
+  @apply flex items-center justify-between px-4 py-3 border-b border-surface-100 cursor-grab select-none;
+  background: linear-gradient(to bottom, #ffffff, #f8fafc);
+}
+
+.widget-drag-handle:active {
+  cursor: grabbing;
+}
+
+.widget-drag-handle h3 {
+  @apply text-sm font-semibold text-surface-800 tracking-tight;
+}
+
+.widget-body {
+  @apply flex-1 overflow-y-auto p-4;
+}
+
+/* ─── Scrollbar styling ──────────────────────────────────────── */
+.widget-body::-webkit-scrollbar {
+  width: 5px;
+}
+.widget-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+.widget-body::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+.widget-body::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* ─── Badge utilities ────────────────────────────────────────── */
+.badge {
+  @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium;
+}
+.badge-green {
+  @apply bg-emerald-50 text-emerald-700 ring-1 ring-emerald-200;
+}
+.badge-blue {
+  @apply bg-blue-50 text-blue-700 ring-1 ring-blue-200;
+}
+.badge-amber {
+  @apply bg-amber-50 text-amber-700 ring-1 ring-amber-200;
+}
+.badge-red {
+  @apply bg-red-50 text-red-700 ring-1 ring-red-200;
+}
+.badge-purple {
+  @apply bg-purple-50 text-purple-700 ring-1 ring-purple-200;
+}
+.badge-slate {
+  @apply bg-surface-100 text-surface-600 ring-1 ring-surface-200;
+}
+
+/* ─── Table styling ──────────────────────────────────────────── */
+.data-table {
+  @apply w-full text-sm;
+}
+.data-table thead th {
+  @apply text-left text-xs font-semibold text-surface-500 uppercase tracking-wider py-2 px-3 border-b border-surface-100 bg-surface-50;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.data-table tbody td {
+  @apply py-2.5 px-3 border-b border-surface-50 text-surface-700;
+}
+.data-table tbody tr:hover td {
+  @apply bg-brand-50/30;
+}
+
+/* ─── Info grid (JobDetails) ─────────────────────────────────── */
+.info-grid {
+  @apply grid grid-cols-2 gap-x-6 gap-y-3;
+}
+.info-grid .info-label {
+  @apply text-xs font-medium text-surface-400 uppercase tracking-wider;
+}
+.info-grid .info-value {
+  @apply text-sm font-medium text-surface-800;
+}

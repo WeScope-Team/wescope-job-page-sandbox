@@ -1,0 +1,5174 @@
+[
+  {
+    "archetype_id": "pgm_revision_asb",
+    "archetype_label": "Program | Revision | ASB",
+    "is_program": true,
+    "order_type": "Revision",
+    "job_type": "ASB",
+    "job_details": {
+      "job_id": 57910,
+      "job_number": "730308 - ASB",
+      "job_status": "Completed",
+      "insured_name": "Alexander Hammond",
+      "client_project_number": "24-0809-BIO",
+      "client_poc": null,
+      "insurance_carrier": "Allstate",
+      "insurance_claim_number": "0770376838",
+      "managed_repair_program": "Paul Davis Corp",
+      "estimation_software": "Xactimate",
+      "order_type": "Revision",
+      "job_type": "ASB",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 1088.3,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-04-16T17:46:52+00:00",
+      "client_name": "Puroclean of East Cobb",
+      "client_location": "East Cobb Georgia "
+    },
+    "tasks": [
+      {
+        "task_id": 278633,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Upload Only",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-04-17T13:46:00",
+        "date_received": "2025-04-16T13:46:52",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-04-16T00:00:00",
+        "task_age_days": 91,
+        "days_past_due": 90,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Ashley  Heavener"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "Email received on: Apr 16, 2025 1:46 pm\n\n\n\nPlease mark urgent by EOD.\n\n\n> ---------- Forwarded message ---------\n\n> From: Danny Lackey <dlackey@puroclean.com>\n\n> Date: Wed, Apr 16, 2025 at 11:16 AM\n\n> Subject: Re: Wednesday morning update\n\n> To: David Ondieki <david@wescope.com>\n\n\n\n\n> David,\n\n\n\n> Please have your team upload estimate for the asbestos testing on 24-0809-BIO Alexander Hammond\n\n\n\n> Danny Lackey\n\n> Director of Mitigation\n\n> PuroClean of East Cobb\n\n> Office: 770-627-0900\n\n> Mobile: 470-810-1230\n\n> dlackey@puroclean.com\n\n> www.puroclean.com/pec-ga",
+    "guidelines": {
+      "carrier_id": 6,
+      "carrier_name": "Allstate",
+      "mrp_id": 8,
+      "mrp_name": "Paul Davis Corp"
+    }
+  },
+  {
+    "archetype_id": "pgm_revision_con",
+    "archetype_label": "Program | Revision | CON",
+    "is_program": true,
+    "order_type": "Revision",
+    "job_type": "CON",
+    "job_details": {
+      "job_id": 58679,
+      "job_number": "736485 - CON",
+      "job_status": "Completed",
+      "insured_name": "Kasey Clark EZ Housing Group",
+      "client_project_number": "25-04-25106",
+      "client_poc": null,
+      "insurance_carrier": "N/A",
+      "insurance_claim_number": "",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Revision",
+      "job_type": "CON",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 73818.16,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Medium (50k-100k)",
+      "date_request_received": "2025-05-07T20:53:00+00:00",
+      "client_name": "Kustom.US - Pasco",
+      "client_location": "Washington"
+    },
+    "tasks": [
+      {
+        "task_id": 282484,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-07T12:12:08.882000",
+        "date_received": "2025-05-07T11:12:08.882000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-07T00:00:00",
+        "task_age_days": 70,
+        "days_past_due": 70,
+        "priority_category": "Standard",
+        "task_type_key": 16,
+        "task_type_name": "Upload Only",
+        "assigned_to_name": "Zachary Strohmaier"
+      },
+      {
+        "task_id": 282483,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "WeScope Participant",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-07T16:53:00",
+        "date_received": "2025-05-07T16:53:00",
+        "date_info_available": "2025-05-07T16:53:00",
+        "task_creation_date": "2025-05-07T00:00:00",
+        "task_age_days": 70,
+        "days_past_due": 70,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Zachary Strohmaier"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 7,
+        "system_name": "DASH"
+      }
+    ],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": true,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "Zachary Strohmaier\n  4:53 PM\n736485 - STC\n\nWe will need a CON Job created for this with a starting point of $73,818.16. I will need an upload task for it as well. Client has asked we separate it from the already written STC/CON combo estimate. Thank you.",
+    "guidelines": {
+      "carrier_id": 138,
+      "carrier_name": "N/A",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_revision_mld",
+    "archetype_label": "Program | Revision | MLD",
+    "is_program": true,
+    "order_type": "Revision",
+    "job_type": "MLD",
+    "job_details": {
+      "job_id": 55688,
+      "job_number": "734461 - MLD",
+      "job_status": "Completed",
+      "insured_name": "Melvin Jensen",
+      "client_project_number": "24-0463-W",
+      "client_poc": null,
+      "insurance_carrier": "Tower Hill Insurance",
+      "insurance_claim_number": "3300542088",
+      "managed_repair_program": "Alacrity (Nexxus)",
+      "estimation_software": "Xactimate",
+      "order_type": "Revision",
+      "job_type": "MLD",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2025-02-25T18:27:58.816000+00:00",
+      "client_name": "VetCor of Fort Myers",
+      "client_location": "Fort Myers"
+    },
+    "tasks": [
+      {
+        "task_id": 268073,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "WeScope Participant",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-02-26T13:27:58.816000",
+        "date_received": "2025-02-25T13:27:58.816000",
+        "date_info_available": "2025-02-25T13:27:58.816000",
+        "task_creation_date": "2025-02-25T00:00:00",
+        "task_age_days": 141,
+        "days_past_due": 140,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Ben Boutwell"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "**Sketch (hand drawn)  uploaded to PD**\n**Scope Notes uploaded to PD**\n**Photos uploaded to PD**\n**ICR uploaded to PD**\n**WA uploaded to PD**\n_________________________________________\n\nClient Bill:\n\n24 hr report and photo report are ready to be made. This is going to turn into a mold assignment. \n \nThank you",
+    "guidelines": {
+      "carrier_id": 120,
+      "carrier_name": "Tower Hill Insurance",
+      "mrp_id": 1,
+      "mrp_name": "Alacrity (Nexxus)"
+    }
+  },
+  {
+    "archetype_id": "pgm_revision_rfg",
+    "archetype_label": "Program | Revision | RFG",
+    "is_program": true,
+    "order_type": "Revision",
+    "job_type": "RFG",
+    "job_details": {
+      "job_id": 56906,
+      "job_number": "735335 - RFG - 2",
+      "job_status": "Completed",
+      "insured_name": "Michael Nero",
+      "client_project_number": "Michael Nero-ROOF",
+      "client_poc": null,
+      "insurance_carrier": "State Farm",
+      "insurance_claim_number": "1481V556L",
+      "managed_repair_program": "Sedgwick (Vericlaim)",
+      "estimation_software": "Xactimate",
+      "order_type": "Revision",
+      "job_type": "RFG",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2025-03-24T17:03:13.101000+00:00",
+      "client_name": "National Catastrophe Solutions",
+      "client_location": "Chicago,IL"
+    },
+    "tasks": [
+      {
+        "task_id": 273853,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Upload Only",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-03-25T15:50:00",
+        "date_received": "2025-03-24T13:03:13.101000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-03-24T00:00:00",
+        "task_age_days": 114,
+        "days_past_due": 113,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Danny Johnson"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "Danny Johnson\n  3:50 PM\n735335 - RFG This is for writing a $0 estimate but I cannot submit a task for $0. Can this be changed to Upload or something? it's a new scope request so IDK how the best way to handle it would be.\n\n\n------------------------------------------\n\nAttachments - Company Cam link to photos \n\n***Scope ---- \n\n\nNotes: Good morning, \n\nIn need of a $0 estimate since there were no damages in the property. Thanks!\n\nAn assignment note was added\n------------------------------------------\nClaim #: 1481V556L\nNote:\nPaula,\n\nPlease upload any photos that you have.\n\nThank you,\n\nDave\n\nDave Hamm | ESCALATION SPECIALIST AND Zero Dollar Estimates",
+    "guidelines": {
+      "carrier_id": 112,
+      "carrier_name": "State Farm",
+      "mrp_id": 11,
+      "mrp_name": "Sedgwick (Vericlaim)"
+    }
+  },
+  {
+    "archetype_id": "pgm_revision_stc",
+    "archetype_label": "Program | Revision | STC",
+    "is_program": true,
+    "order_type": "Revision",
+    "job_type": "STC",
+    "job_details": {
+      "job_id": 58368,
+      "job_number": "736566 - STC",
+      "job_status": "Completed",
+      "insured_name": "Tammy Schaible",
+      "client_project_number": "Schaible-STC",
+      "client_poc": null,
+      "insurance_carrier": "Allstate",
+      "insurance_claim_number": "0791195810",
+      "managed_repair_program": "Alacrity (Nexxus)",
+      "estimation_software": "Xactimate",
+      "order_type": "Revision",
+      "job_type": "STC",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 23192.78,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Small (10k-50k)",
+      "date_request_received": "2025-04-29T02:23:52+00:00",
+      "client_name": "A1 Quality",
+      "client_location": ",Kentucky "
+    },
+    "tasks": [
+      {
+        "task_id": 280821,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Upload Only",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-04-29T22:23:00",
+        "date_received": "2025-04-28T22:23:52",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-04-28T00:00:00",
+        "task_age_days": 79,
+        "days_past_due": 78,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Candice  Morales"
+      },
+      {
+        "task_id": 282022,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-05T18:21:31",
+        "date_received": "2025-05-05T17:21:31",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-05T00:00:00",
+        "task_age_days": 72,
+        "days_past_due": 72,
+        "priority_category": "Standard",
+        "task_type_key": 16,
+        "task_type_name": "Upload Only",
+        "assigned_to_name": "Candice  Morales"
+      },
+      {
+        "task_id": 286921,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-06-04T08:00:00",
+        "date_received": "2025-06-03T08:00:00",
+        "date_info_available": "2025-06-03T08:00:00",
+        "task_creation_date": "2025-06-03T00:00:00",
+        "task_age_days": 43,
+        "days_past_due": 42,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Candice  Morales"
+      },
+      {
+        "task_id": 291709,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-07-01T14:49:00",
+        "date_received": "2025-06-30T14:49:00",
+        "date_info_available": "2025-06-30T14:49:00",
+        "task_creation_date": "2025-06-30T00:00:00",
+        "task_age_days": 16,
+        "days_past_due": 15,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Candice  Morales"
+      },
+      {
+        "task_id": 292276,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Client / Contractor",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-07-03T11:56:00",
+        "date_received": "2025-07-02T11:56:00",
+        "date_info_available": "2025-07-02T11:56:00",
+        "task_creation_date": "2025-07-02T00:00:00",
+        "task_age_days": 14,
+        "days_past_due": 13,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Candice  Morales"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 5,
+        "system_name": "Alacrity"
+      },
+      {
+        "system_id": 41,
+        "system_name": "Custom"
+      },
+      {
+        "system_id": 44,
+        "system_name": "EagleView"
+      },
+      {
+        "system_id": 1,
+        "system_name": "Email"
+      },
+      {
+        "system_id": 43,
+        "system_name": "HOVER"
+      },
+      {
+        "system_id": 45,
+        "system_name": "MICA Pro"
+      },
+      {
+        "system_id": 4,
+        "system_name": "Symbility"
+      },
+      {
+        "system_id": 46,
+        "system_name": "Westhill"
+      },
+      {
+        "system_id": 3,
+        "system_name": "XactAnalysis"
+      },
+      {
+        "system_id": 42,
+        "system_name": "Xactimate (Online)"
+      }
+    ],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "** Google Drive linked\n\nClient Jeff -\nPlease upload pictures ASAP for carrier to see.",
+    "guidelines": {
+      "carrier_id": 6,
+      "carrier_name": "Allstate",
+      "mrp_id": 1,
+      "mrp_name": "Alacrity (Nexxus)"
+    }
+  },
+  {
+    "archetype_id": "pgm_revision_str",
+    "archetype_label": "Program | Revision | STR",
+    "is_program": true,
+    "order_type": "Revision",
+    "job_type": "STR",
+    "job_details": {
+      "job_id": 59212,
+      "job_number": "735746 - STR",
+      "job_status": "Completed",
+      "insured_name": "MaryAlice Ridgway",
+      "client_project_number": "H25-0053-WSTR",
+      "client_poc": null,
+      "insurance_carrier": "N/A",
+      "insurance_claim_number": "",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Revision",
+      "job_type": "STR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 69503.26,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Medium (50k-100k)",
+      "date_request_received": "2025-05-22T18:06:00+00:00",
+      "client_name": "O So Kleen - Hermiston",
+      "client_location": "Hermiston, OR"
+    },
+    "tasks": [
+      {
+        "task_id": 285105,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Upload Only",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-23T14:06:00",
+        "date_received": "2025-05-22T14:06:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-22T00:00:00",
+        "task_age_days": 55,
+        "days_past_due": 54,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 292966,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-07-07T15:18:00",
+        "date_received": "2025-07-07T14:18:00",
+        "date_info_available": "2025-07-07T15:18:00",
+        "task_creation_date": "2025-07-07T00:00:00",
+        "task_age_days": 9,
+        "days_past_due": 9,
+        "priority_category": "Standard",
+        "task_type_key": 16,
+        "task_type_name": "Upload Only",
+        "assigned_to_name": "Tiffany Hoover"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "he STR on this one needs to start at 69,503.26 please",
+    "guidelines": {
+      "carrier_id": 138,
+      "carrier_name": "N/A",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_revision_tmp",
+    "archetype_label": "Program | Revision | TMP",
+    "is_program": true,
+    "order_type": "Revision",
+    "job_type": "TMP",
+    "job_details": {
+      "job_id": 57322,
+      "job_number": "735742 - TMP",
+      "job_status": "Completed",
+      "insured_name": "James Davis ",
+      "client_project_number": "Davis_TMP",
+      "client_poc": null,
+      "insurance_carrier": "Allstate",
+      "insurance_claim_number": "0788828218",
+      "managed_repair_program": "Alacrity (Nexxus)",
+      "estimation_software": "Xactimate",
+      "order_type": "Revision",
+      "job_type": "TMP",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2025-04-03T12:06:15+00:00",
+      "client_name": "A1 Quality",
+      "client_location": ",Kentucky "
+    },
+    "tasks": [
+      {
+        "task_id": 275834,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Upload Only",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-04-04T08:06:00",
+        "date_received": "2025-04-03T08:06:15",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-04-03T00:00:00",
+        "task_age_days": 104,
+        "days_past_due": 103,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Candice  Morales"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 5,
+        "system_name": "Alacrity"
+      },
+      {
+        "system_id": 41,
+        "system_name": "Custom"
+      },
+      {
+        "system_id": 44,
+        "system_name": "EagleView"
+      },
+      {
+        "system_id": 1,
+        "system_name": "Email"
+      },
+      {
+        "system_id": 43,
+        "system_name": "HOVER"
+      },
+      {
+        "system_id": 45,
+        "system_name": "MICA Pro"
+      },
+      {
+        "system_id": 4,
+        "system_name": "Symbility"
+      },
+      {
+        "system_id": 46,
+        "system_name": "Westhill"
+      },
+      {
+        "system_id": 3,
+        "system_name": "XactAnalysis"
+      },
+      {
+        "system_id": 42,
+        "system_name": "Xactimate (Online)"
+      }
+    ],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "Email received on: Apr 3, 2025 8:06 am\n\n***Client Jeff \n\nPlease upload pictures in share folder.",
+    "guidelines": {
+      "carrier_id": 6,
+      "carrier_name": "Allstate",
+      "mrp_id": 1,
+      "mrp_name": "Alacrity (Nexxus)"
+    }
+  },
+  {
+    "archetype_id": "pgm_revision_wtr",
+    "archetype_label": "Program | Revision | WTR",
+    "is_program": true,
+    "order_type": "Revision",
+    "job_type": "WTR",
+    "job_details": {
+      "job_id": 59006,
+      "job_number": "737078 - WTR",
+      "job_status": "Completed",
+      "insured_name": "Connie Circle",
+      "client_project_number": "Circle-REV",
+      "client_poc": null,
+      "insurance_carrier": "Allstate",
+      "insurance_claim_number": "0791636806",
+      "managed_repair_program": "Alacrity (Nexxus)",
+      "estimation_software": "Xactimate",
+      "order_type": "Revision",
+      "job_type": "WTR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 1282.49,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-05-16T18:03:00+00:00",
+      "client_name": "Restorationpros.org",
+      "client_location": ","
+    },
+    "tasks": [
+      {
+        "task_id": 284108,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "TPA",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-19T14:03:00",
+        "date_received": "2025-05-16T14:03:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-16T00:00:00",
+        "task_age_days": 61,
+        "days_past_due": 58,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Tiffany Hoover"
+      },
+      {
+        "task_id": 284487,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "TPA",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-21T11:09:00",
+        "date_received": "2025-05-20T10:09:00",
+        "date_info_available": "2025-05-20T11:09:00",
+        "task_creation_date": "2025-05-20T00:00:00",
+        "task_age_days": 57,
+        "days_past_due": 56,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Tiffany Hoover"
+      },
+      {
+        "task_id": 285223,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "TPA",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-23T20:08:00",
+        "date_received": "2025-05-22T20:08:00",
+        "date_info_available": "2025-05-22T20:08:00",
+        "task_creation_date": "2025-05-23T00:00:00",
+        "task_age_days": 54,
+        "days_past_due": 54,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Tiffany Hoover"
+      },
+      {
+        "task_id": 285699,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "TPA",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-28T14:20:00",
+        "date_received": "2025-05-27T14:20:00",
+        "date_info_available": "2025-05-27T14:20:00",
+        "task_creation_date": "2025-05-27T00:00:00",
+        "task_age_days": 50,
+        "days_past_due": 49,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Tiffany Hoover"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "***OG estimate uploaded to PD\nAsked client for drive access but all info pulled from Alac\n\n-Client James-\nGood morning,\n\nWe have a claim we need help with. The information is in the drive under\nConnie Circle, and it's in Alacnet under the same name. The estimate was\nalready submitted, but the estimator is out and there are corrections.\nPlease let me know how else I can help.\n\nBest,\n\n--\n\n*James Phillips*\nOperations Coordinator\n541.554.1736 james@restorationpros.org",
+    "guidelines": {
+      "carrier_id": 6,
+      "carrier_name": "Allstate",
+      "mrp_id": 1,
+      "mrp_name": "Alacrity (Nexxus)"
+    }
+  },
+  {
+    "archetype_id": "pgm_scope_asb",
+    "archetype_label": "Program | Scope | ASB",
+    "is_program": true,
+    "order_type": "Scope",
+    "job_type": "ASB",
+    "job_details": {
+      "job_id": 59172,
+      "job_number": "737065 - ASB",
+      "job_status": "Completed",
+      "insured_name": "Jason Barker",
+      "client_project_number": "25-0212-ASB",
+      "client_poc": null,
+      "insurance_carrier": "Allstate",
+      "insurance_claim_number": "0792880288",
+      "managed_repair_program": "Sedgwick (Vericlaim)",
+      "estimation_software": "Xactimate",
+      "order_type": "Scope",
+      "job_type": "ASB",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 580.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-05-21T20:34:41+00:00",
+      "client_name": "Stephenson Restoration",
+      "client_location": "Utah"
+    },
+    "tasks": [
+      {
+        "task_id": 284922,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T14:34:00",
+        "date_received": "2025-05-21T16:34:41",
+        "date_info_available": "2025-05-21T16:34:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284923,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T16:34:00",
+        "date_received": "2025-05-21T16:34:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Cameron Caccavale"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 5,
+        "system_name": "Alacrity"
+      },
+      {
+        "system_id": 7,
+        "system_name": "DASH"
+      },
+      {
+        "system_id": 11,
+        "system_name": "Docusketch"
+      },
+      {
+        "system_id": 44,
+        "system_name": "EagleView"
+      },
+      {
+        "system_id": 1,
+        "system_name": "Email"
+      },
+      {
+        "system_id": 43,
+        "system_name": "HOVER"
+      },
+      {
+        "system_id": 45,
+        "system_name": "MICA Pro"
+      },
+      {
+        "system_id": 4,
+        "system_name": "Symbility"
+      },
+      {
+        "system_id": 46,
+        "system_name": "Westhill"
+      },
+      {
+        "system_id": 3,
+        "system_name": "XactAnalysis"
+      },
+      {
+        "system_id": 42,
+        "system_name": "Xactimate (Online)"
+      }
+    ],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": true,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "Attachments added - COC and ASB report\n\nEstimator- Urgent please create an allstate estimate for asbestos testing and samples. 6 samples were taken. We need to upload that to the TPA as soon as possible.",
+    "guidelines": {
+      "carrier_id": 6,
+      "carrier_name": "Allstate",
+      "mrp_id": 11,
+      "mrp_name": "Sedgwick (Vericlaim)"
+    }
+  },
+  {
+    "archetype_id": "pgm_scope_bio",
+    "archetype_label": "Program | Scope | BIO",
+    "is_program": true,
+    "order_type": "Scope",
+    "job_type": "BIO",
+    "job_details": {
+      "job_id": 37724,
+      "job_number": "719760 - BIO",
+      "job_status": "Completed",
+      "insured_name": "Robby Truong",
+      "client_project_number": "TNMI-24-0177-E",
+      "client_poc": null,
+      "insurance_carrier": "Allstate",
+      "insurance_claim_number": "0745160515",
+      "managed_repair_program": "Paul Davis Corp",
+      "estimation_software": "Xactimate",
+      "order_type": "Scope",
+      "job_type": "BIO",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 14201.4,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Small (10k-50k)",
+      "date_request_received": "2024-03-06T13:03:00+00:00",
+      "client_name": "PDR - TNMI *khtx*",
+      "client_location": "Tennessee"
+    },
+    "tasks": [
+      {
+        "task_id": 175660,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-03-07T08:03:00",
+        "date_received": "2024-03-06T08:03:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-03-06T00:00:00",
+        "task_age_days": 497,
+        "days_past_due": 496,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Houston Spears"
+      },
+      {
+        "task_id": 175659,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-03-07T06:03:00",
+        "date_received": "2024-03-06T08:03:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-03-06T00:00:00",
+        "task_age_days": 497,
+        "days_past_due": 496,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Houston Spears"
+      },
+      {
+        "task_id": 177702,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2024-03-14T06:33:00",
+        "date_received": "2024-03-14T06:33:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-03-13T00:00:00",
+        "task_age_days": 490,
+        "days_past_due": 489,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Houston Spears"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "****Scope Notes \n\nClient Josh \n\nWeScope, please build estimate for emergency after hours service call and an air scrubber on site for 4 days",
+    "guidelines": {
+      "carrier_id": 6,
+      "carrier_name": "Allstate",
+      "mrp_id": 8,
+      "mrp_name": "Paul Davis Corp"
+    }
+  },
+  {
+    "archetype_id": "pgm_scope_con",
+    "archetype_label": "Program | Scope | CON",
+    "is_program": true,
+    "order_type": "Scope",
+    "job_type": "CON",
+    "job_details": {
+      "job_id": 59156,
+      "job_number": "737154 - CON",
+      "job_status": "Completed",
+      "insured_name": "Evelyn & Jesus Pascua",
+      "client_project_number": "25-0143-REB (CON) - CLIENT DIRECTED REQUESTS ONLY",
+      "client_poc": null,
+      "insurance_carrier": "American Modern",
+      "insurance_claim_number": "095632AB-001",
+      "managed_repair_program": "Alacrity (Nexxus)",
+      "estimation_software": "Symbility",
+      "order_type": "Scope",
+      "job_type": "CON",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 4324.69,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-05-21T18:21:00+00:00",
+      "client_name": "ARC Services",
+      "client_location": "Nevada"
+    },
+    "tasks": [
+      {
+        "task_id": 284845,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T12:21:00",
+        "date_received": "2025-05-21T14:21:00",
+        "date_info_available": "2025-05-21T14:21:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 284846,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T14:21:00",
+        "date_received": "2025-05-21T14:21:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 285414,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "TPA",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-24T16:20:00",
+        "date_received": "2025-05-23T16:20:00",
+        "date_info_available": "2025-05-23T16:20:00",
+        "task_creation_date": "2025-05-23T00:00:00",
+        "task_age_days": 54,
+        "days_past_due": 53,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Danny Johnson"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 5,
+        "system_name": "Alacrity"
+      },
+      {
+        "system_id": 7,
+        "system_name": "DASH"
+      },
+      {
+        "system_id": 44,
+        "system_name": "EagleView"
+      },
+      {
+        "system_id": 1,
+        "system_name": "Email"
+      },
+      {
+        "system_id": 6,
+        "system_name": "Matterport"
+      },
+      {
+        "system_id": 4,
+        "system_name": "Symbility"
+      },
+      {
+        "system_id": 46,
+        "system_name": "Westhill"
+      },
+      {
+        "system_id": 3,
+        "system_name": "XactAnalysis"
+      },
+      {
+        "system_id": 42,
+        "system_name": "Xactimate (Online)"
+      }
+    ],
+    "has_matterport": true,
+    "has_companycam": false,
+    "has_crm": true,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "Danny Johnson\n  5 minutes ago\nNP. and last thing, they originally had me put pack out in the repairs, but when i started looking in alac i found there is a separate CON shell, so we need to also have a CON estimate for those items to go to",
+    "guidelines": {
+      "carrier_id": 2,
+      "carrier_name": "American Modern",
+      "mrp_id": 1,
+      "mrp_name": "Alacrity (Nexxus)"
+    }
+  },
+  {
+    "archetype_id": "pgm_scope_mld",
+    "archetype_label": "Program | Scope | MLD",
+    "is_program": true,
+    "order_type": "Scope",
+    "job_type": "MLD",
+    "job_details": {
+      "job_id": 59020,
+      "job_number": "736994 - MLD",
+      "job_status": "Completed",
+      "insured_name": "HOLLY ECHEVERRIA",
+      "client_project_number": "86-25-00682-MLD",
+      "client_poc": null,
+      "insurance_carrier": "USAA",
+      "insurance_claim_number": "009807068-802",
+      "managed_repair_program": "1-800 Water Damage",
+      "estimation_software": "Xactimate",
+      "order_type": "Scope",
+      "job_type": "MLD",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 2687.38,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-05-16T20:45:26+00:00",
+      "client_name": "1-800 Water Damage of WA and OR",
+      "client_location": ","
+    },
+    "tasks": [
+      {
+        "task_id": 284173,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-17T16:45:00",
+        "date_received": "2025-05-16T16:45:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-16T00:00:00",
+        "task_age_days": 61,
+        "days_past_due": 60,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284172,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-17T14:45:00",
+        "date_received": "2025-05-16T16:45:00",
+        "date_info_available": "2025-05-16T16:45:00",
+        "task_creation_date": "2025-05-16T00:00:00",
+        "task_age_days": 61,
+        "days_past_due": 60,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284580,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Client / Contractor",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-21T13:15:00",
+        "date_received": "2025-05-20T13:15:00",
+        "date_info_available": "2025-05-20T13:15:00",
+        "task_creation_date": "2025-05-20T00:00:00",
+        "task_age_days": 57,
+        "days_past_due": 56,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Jeffrey Reid"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "Ready to go\n\n---------- Forwarded message ---------\nFrom: Carlos Delgado <carlos.delgado@1800waterdamage.com>\nDate: Fri, May 16, 2025 at 1:28\u202fPM\nSubject: USAA TPA Mold Job Completed - HOLLY ECHEVERRIA\nTo: vancouverportland.jobcompleted@1800waterdamage.com <\nvancouverportland.jobcompleted@1800waterdamage.com>\n\n\nHolly Echeverria - Line items and air scrubber times are in mitigate.\nPhotos have already been uploaded. Completion form will be emailed to the\nMBR.\n\n\n-- \n--\nAnthony Laney\n*1-800 Water Damage - Vancouver / Portland*\n1200 NE 112th Avenue\nPO Box 822796\nVancouver, WA  98684\n360.737.9819 - Vancouver Office\n503.603.9111 - Portland Office\n*360.737.7677  EMERGENCY 24/7/365*\nhttps://www.1800waterdamage.com/vancouver-wa/\nCell:  971-770-8700\n\nwww.1800waterdamage.com\n_\n[image: 4e832988-2163-4db1-a7bc-7de0ce28aa7d.png]\n\n--\nIMPORTANT: This transmission is sent on behalf of 1-800 Water Damage -\nVancouver / Portland, it is privileged, proprietary and/or confidential. It\nis intended only for the intended recipient. If you are not the intended\nrecipient or a person responsible for delivering this transmission to the\nintended recipient, you may not disclose, copy or distribute this\ntransmission, or take any action in reliance on it. If you received this\ntransmission in error, please notify us immediately by telephone at (360)\n737-9819  or by email to tamara.tanuvasa@1800waterdamage.com, and please\ndispose of and delete this transmission.\n\n1-800 Water Damage YouTube Channel\n<https://www.youtube.com/watch?v=3XOSrABhxNw>",
+    "guidelines": {
+      "carrier_id": 128,
+      "carrier_name": "USAA",
+      "mrp_id": 22,
+      "mrp_name": "1-800 Water Damage"
+    }
+  },
+  {
+    "archetype_id": "pgm_scope_rfg",
+    "archetype_label": "Program | Scope | RFG",
+    "is_program": true,
+    "order_type": "Scope",
+    "job_type": "RFG",
+    "job_details": {
+      "job_id": 58017,
+      "job_number": "734135 - RFG - 2",
+      "job_status": "Completed",
+      "insured_name": "JOSE GALINDO",
+      "client_project_number": "TX-25-0032-REC",
+      "client_poc": null,
+      "insurance_carrier": "State Farm",
+      "insurance_claim_number": "4379J904V",
+      "managed_repair_program": "Sedgwick (Vericlaim)",
+      "estimation_software": "Xactimate",
+      "order_type": "Scope",
+      "job_type": "RFG",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 74462.98,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Medium (50k-100k)",
+      "date_request_received": "2025-04-18T14:00:51+00:00",
+      "client_name": "National Flood & Fire Network - TX",
+      "client_location": "Texas"
+    },
+    "tasks": [
+      {
+        "task_id": 279121,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-04-21T08:01:51",
+        "date_received": "2025-04-18T10:00:51",
+        "date_info_available": "2025-04-18T10:01:51",
+        "task_creation_date": "2025-04-18T00:00:00",
+        "task_age_days": 89,
+        "days_past_due": 86,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Kody Scruggs"
+      },
+      {
+        "task_id": 279122,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-04-21T10:01:51",
+        "date_received": "2025-04-18T10:00:51",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-04-18T00:00:00",
+        "task_age_days": 89,
+        "days_past_due": 86,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Kody Scruggs"
+      },
+      {
+        "task_id": 279528,
+        "task_name": null,
+        "task_status": "",
+        "task_status_desc": "Cancelled",
+        "revision_type": null,
+        "is_cancelled": true,
+        "is_urgent": false,
+        "date_due": "2025-04-22T18:00:00",
+        "date_received": "2025-04-22T06:00:01.030000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-04-22T00:00:00",
+        "task_age_days": 85,
+        "days_past_due": 85,
+        "priority_category": "Standard",
+        "task_type_key": 17,
+        "task_type_name": "ARISE Quality Review",
+        "assigned_to_name": "Jon de Werd"
+      },
+      {
+        "task_id": 279540,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-04-23T08:12:53",
+        "date_received": "2025-04-22T08:12:53",
+        "date_info_available": "2025-04-22T08:12:53",
+        "task_creation_date": "2025-04-22T00:00:00",
+        "task_age_days": 85,
+        "days_past_due": 84,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Kody Scruggs"
+      },
+      {
+        "task_id": 280000,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-04-24T17:41:26",
+        "date_received": "2025-04-23T17:41:26",
+        "date_info_available": "2025-04-23T17:41:26",
+        "task_creation_date": "2025-04-23T00:00:00",
+        "task_age_days": 84,
+        "days_past_due": 83,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Chad Lewis"
+      },
+      {
+        "task_id": 280252,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-04-25T20:38:46",
+        "date_received": "2025-04-24T20:38:46",
+        "date_info_available": "2025-04-24T20:38:46",
+        "task_creation_date": "2025-04-24T00:00:00",
+        "task_age_days": 83,
+        "days_past_due": 82,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Kody Scruggs"
+      },
+      {
+        "task_id": 280476,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-04-26T02:18:16",
+        "date_received": "2025-04-26T01:18:16",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-04-26T00:00:00",
+        "task_age_days": 81,
+        "days_past_due": 81,
+        "priority_category": "Standard",
+        "task_type_key": 16,
+        "task_type_name": "Upload Only",
+        "assigned_to_name": "Kody Scruggs"
+      },
+      {
+        "task_id": 281835,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-06T10:19:15",
+        "date_received": "2025-05-05T10:19:15",
+        "date_info_available": "2025-05-05T10:19:15",
+        "task_creation_date": "2025-05-05T00:00:00",
+        "task_age_days": 72,
+        "days_past_due": 71,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Kody Scruggs"
+      },
+      {
+        "task_id": 282129,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Client / Contractor",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-06T12:54:45",
+        "date_received": "2025-05-06T11:54:45",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-06T00:00:00",
+        "task_age_days": 71,
+        "days_past_due": 71,
+        "priority_category": "Standard",
+        "task_type_key": 16,
+        "task_type_name": "Upload Only",
+        "assigned_to_name": "Kody Scruggs"
+      },
+      {
+        "task_id": 285002,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-23T09:41:00",
+        "date_received": "2025-05-22T09:41:00",
+        "date_info_available": "2025-05-22T09:41:00",
+        "task_creation_date": "2025-05-22T00:00:00",
+        "task_age_days": 55,
+        "days_past_due": 54,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Kody Scruggs"
+      },
+      {
+        "task_id": 291794,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-07-01T17:57:00",
+        "date_received": "2025-06-30T17:57:00",
+        "date_info_available": "2025-06-30T17:57:00",
+        "task_creation_date": "2025-07-01T00:00:00",
+        "task_age_days": 15,
+        "days_past_due": 15,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Jared Tipton"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 11,
+        "system_name": "Docusketch"
+      }
+    ],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "Approved by Jon to add -2 \n\nState Farm estimate is in the portal \n\nPer Jason -\nPlease revise uploaded estimate to match the approved estimate that State Farm has provided to the HO. The estimate is uploaded in Dash under document estimates. SF.approved.Est I need this estimate uploaded please.",
+    "guidelines": {
+      "carrier_id": 112,
+      "carrier_name": "State Farm",
+      "mrp_id": 11,
+      "mrp_name": "Sedgwick (Vericlaim)"
+    }
+  },
+  {
+    "archetype_id": "pgm_scope_stc",
+    "archetype_label": "Program | Scope | STC",
+    "is_program": true,
+    "order_type": "Scope",
+    "job_type": "STC",
+    "job_details": {
+      "job_id": 58998,
+      "job_number": "737072 - STC",
+      "job_status": "Completed",
+      "insured_name": "Meghan Becker",
+      "client_project_number": "TX-25-0139-STR",
+      "client_poc": null,
+      "insurance_carrier": "National General",
+      "insurance_claim_number": "250319913",
+      "managed_repair_program": "Sedgwick (Vericlaim)",
+      "estimation_software": "Xactimate",
+      "order_type": "Scope",
+      "job_type": "STC",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 26818.71,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Small (10k-50k)",
+      "date_request_received": "2025-05-16T17:27:42+00:00",
+      "client_name": "National Flood & Fire Network - TX",
+      "client_location": "Texas"
+    },
+    "tasks": [
+      {
+        "task_id": 284075,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-19T13:27:00",
+        "date_received": "2025-05-16T13:27:42",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-16T00:00:00",
+        "task_age_days": 61,
+        "days_past_due": 58,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284074,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-19T11:27:00",
+        "date_received": "2025-05-16T13:27:42",
+        "date_info_available": "2025-05-16T13:27:00",
+        "task_creation_date": "2025-05-16T00:00:00",
+        "task_age_days": 61,
+        "days_past_due": 58,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284601,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "TPA",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-21T15:10:00",
+        "date_received": "2025-05-20T15:10:00",
+        "date_info_available": "2025-05-20T15:10:00",
+        "task_creation_date": "2025-05-20T00:00:00",
+        "task_age_days": 57,
+        "days_past_due": 56,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284888,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "TPA",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-22T14:55:00",
+        "date_received": "2025-05-21T14:55:00",
+        "date_info_available": "2025-05-21T14:55:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284889,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "TPA",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-22T14:55:00",
+        "date_received": "2025-05-21T14:55:00",
+        "date_info_available": "2025-05-21T14:55:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Cameron Caccavale"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 11,
+        "system_name": "Docusketch"
+      }
+    ],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "- Client Roscoe -\n\nPRELIMINARY STRUCTURE CLEANING ESTIMATE NEEDED.\n\n- Smoke damage throughout home.\n\n- Docusketch available for reference.",
+    "guidelines": {
+      "carrier_id": 89,
+      "carrier_name": "National General",
+      "mrp_id": 11,
+      "mrp_name": "Sedgwick (Vericlaim)"
+    }
+  },
+  {
+    "archetype_id": "pgm_scope_str",
+    "archetype_label": "Program | Scope | STR",
+    "is_program": true,
+    "order_type": "Scope",
+    "job_type": "STR",
+    "job_details": {
+      "job_id": 59157,
+      "job_number": "733824 - STR",
+      "job_status": "Completed",
+      "insured_name": "Cheryl McQuown",
+      "client_project_number": "H24-0234-FSTR",
+      "client_poc": "m scott",
+      "insurance_carrier": "State Farm",
+      "insurance_claim_number": "3773T029W",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Scope",
+      "job_type": "STR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 59904.55,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Medium (50k-100k)",
+      "date_request_received": "2025-05-21T17:51:56+00:00",
+      "client_name": "O So Kleen - Hermiston",
+      "client_location": "Hermiston, OR"
+    },
+    "tasks": [
+      {
+        "task_id": 284849,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-23T11:51:00",
+        "date_received": "2025-05-21T13:51:56",
+        "date_info_available": "2025-05-21T13:51:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 54,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 284850,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-23T13:51:00",
+        "date_received": "2025-05-21T13:51:56",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 54,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 284969,
+        "task_name": null,
+        "task_status": "",
+        "task_status_desc": "Cancelled",
+        "revision_type": null,
+        "is_cancelled": true,
+        "is_urgent": false,
+        "date_due": "2025-05-22T18:00:00",
+        "date_received": "2025-05-22T06:00:01.787000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-22T00:00:00",
+        "task_age_days": 55,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 17,
+        "task_type_name": "ARISE Quality Review",
+        "assigned_to_name": "Jon de Werd"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "** Added Adjuster Estimate to PD\n\n----------------------\n\n- Client Forrest -\n\nWescope- estimate is uploaded can we copy adusters estimate line for line except for cleaning items please",
+    "guidelines": {
+      "carrier_id": 112,
+      "carrier_name": "State Farm",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_scope_tmp",
+    "archetype_label": "Program | Scope | TMP",
+    "is_program": true,
+    "order_type": "Scope",
+    "job_type": "TMP",
+    "job_details": {
+      "job_id": 59034,
+      "job_number": "737089 - TMP",
+      "job_status": "Completed",
+      "insured_name": "Forrest Wade",
+      "client_project_number": "W-25-0054-EMS TARP",
+      "client_poc": null,
+      "insurance_carrier": "SageSure Insurance",
+      "insurance_claim_number": "HO-2025-359070248",
+      "managed_repair_program": "Alacrity (Nexxus)",
+      "estimation_software": "Symbility",
+      "order_type": "Scope",
+      "job_type": "TMP",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 426.97,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-05-19T13:07:00+00:00",
+      "client_name": "APR Restoration and Commercial Development",
+      "client_location": "Raleigh, NC"
+    },
+    "tasks": [
+      {
+        "task_id": 284246,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-20T09:07:00",
+        "date_received": "2025-05-19T09:07:12",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-19T00:00:00",
+        "task_age_days": 58,
+        "days_past_due": 57,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Ashley  Heavener"
+      },
+      {
+        "task_id": 284245,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-20T07:07:00",
+        "date_received": "2025-05-19T09:07:00",
+        "date_info_available": "2025-05-19T09:07:00",
+        "task_creation_date": "2025-05-19T00:00:00",
+        "task_age_days": 58,
+        "days_past_due": 57,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Ashley  Heavener"
+      },
+      {
+        "task_id": 284441,
+        "task_name": null,
+        "task_status": "",
+        "task_status_desc": "Cancelled",
+        "revision_type": null,
+        "is_cancelled": true,
+        "is_urgent": false,
+        "date_due": "2025-05-20T18:00:00",
+        "date_received": "2025-05-20T06:00:01.496000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-20T00:00:00",
+        "task_age_days": 57,
+        "days_past_due": 57,
+        "priority_category": "Standard",
+        "task_type_key": 17,
+        "task_type_name": "ARISE Quality Review",
+        "assigned_to_name": "Jon de Werd"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "Please create roof tarping board up estimate and upload into Symbility.  also please update Alacrity.\n\nAlso please add in $250 for materials on this board up estimate\n\nThis estimate also needs to be marked URGENT",
+    "guidelines": {
+      "carrier_id": 159,
+      "carrier_name": "SageSure Insurance",
+      "mrp_id": 1,
+      "mrp_name": "Alacrity (Nexxus)"
+    }
+  },
+  {
+    "archetype_id": "pgm_scope_wtr",
+    "archetype_label": "Program | Scope | WTR",
+    "is_program": true,
+    "order_type": "Scope",
+    "job_type": "WTR",
+    "job_details": {
+      "job_id": 58984,
+      "job_number": "736944 - WTR",
+      "job_status": "Completed",
+      "insured_name": "Marvin Rinker",
+      "client_project_number": "25-0582-WTR",
+      "client_poc": null,
+      "insurance_carrier": "Encova Insurance",
+      "insurance_claim_number": "500-00-103033",
+      "managed_repair_program": "CCC",
+      "estimation_software": "Xactimate",
+      "order_type": "Scope",
+      "job_type": "WTR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 4124.88,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-05-16T15:12:51+00:00",
+      "client_name": "Faulkner Restoration INC.",
+      "client_location": "Greenwood, Indiana"
+    },
+    "tasks": [
+      {
+        "task_id": 284009,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-19T11:12:00",
+        "date_received": "2025-05-16T11:12:51",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-16T00:00:00",
+        "task_age_days": 61,
+        "days_past_due": 58,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284008,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-19T09:12:00",
+        "date_received": "2025-05-16T11:12:51",
+        "date_info_available": "2025-05-16T11:12:00",
+        "task_creation_date": "2025-05-16T00:00:00",
+        "task_age_days": 61,
+        "days_past_due": 58,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Cameron Caccavale"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "Attachments \nMatterport\nMICA\nPhotos \n\n*we wrote the str\n\nCan you write the mit/remediaton on this please? It is a 3 day dry out. I need this back today if you're able. Does NOT need uploaded. Thank you!",
+    "guidelines": {
+      "carrier_id": 51,
+      "carrier_name": "Encova Insurance",
+      "mrp_id": 3,
+      "mrp_name": "CCC"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_asb",
+    "archetype_label": "Program | Sketch | ASB",
+    "is_program": true,
+    "order_type": "Sketch",
+    "job_type": "ASB",
+    "job_details": {
+      "job_id": 59183,
+      "job_number": "737215 - ASB",
+      "job_status": "Completed",
+      "insured_name": "Marrio Valladres",
+      "client_project_number": "25-0147-ASB",
+      "client_poc": "",
+      "insurance_carrier": "Allstate",
+      "insurance_claim_number": "0792651523",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch",
+      "job_type": "ASB",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2025-05-21T22:03:53+00:00",
+      "client_name": "ARC Services",
+      "client_location": "Nevada"
+    },
+    "tasks": [
+      {
+        "task_id": 284974,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T16:03:00",
+        "date_received": "2025-05-21T18:03:00",
+        "date_info_available": "2025-05-21T18:03:00",
+        "task_creation_date": "2025-05-22T00:00:00",
+        "task_age_days": 55,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Ronel Juanico"
+      },
+      {
+        "task_id": 284975,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T18:03:00",
+        "date_received": "2025-05-21T18:03:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-22T00:00:00",
+        "task_age_days": 55,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Ronel Juanico"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 5,
+        "system_name": "Alacrity"
+      },
+      {
+        "system_id": 7,
+        "system_name": "DASH"
+      },
+      {
+        "system_id": 44,
+        "system_name": "EagleView"
+      },
+      {
+        "system_id": 1,
+        "system_name": "Email"
+      },
+      {
+        "system_id": 6,
+        "system_name": "Matterport"
+      },
+      {
+        "system_id": 4,
+        "system_name": "Symbility"
+      },
+      {
+        "system_id": 46,
+        "system_name": "Westhill"
+      },
+      {
+        "system_id": 3,
+        "system_name": "XactAnalysis"
+      },
+      {
+        "system_id": 42,
+        "system_name": "Xactimate (Online)"
+      }
+    ],
+    "has_matterport": true,
+    "has_companycam": false,
+    "has_crm": true,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "Attachments-\n2 matterports\nphotos\n\n********Sketch only request per Gustavo ***********\n\nFS: There is a 2 part scan for this one, please do a sketch only and add all the rooms to one sketch. Thank you.",
+    "guidelines": {
+      "carrier_id": 6,
+      "carrier_name": "Allstate",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_bio",
+    "archetype_label": "Program | Sketch | BIO",
+    "is_program": true,
+    "order_type": "Sketch",
+    "job_type": "BIO",
+    "job_details": {
+      "job_id": 28198,
+      "job_number": "712796 - BIO",
+      "job_status": "Completed",
+      "insured_name": "Becky Roman",
+      "client_project_number": "23-0200-TRM",
+      "client_poc": "",
+      "insurance_carrier": "Oregon Mutual Ins.",
+      "insurance_claim_number": "288905",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch",
+      "job_type": "BIO",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2023-10-16T13:32:00+00:00",
+      "client_name": "Coastal Restoration",
+      "client_location": "Oregon"
+    },
+    "tasks": [
+      {
+        "task_id": 128268,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-10-17T07:32:00",
+        "date_received": "2023-10-16T11:39:47.425000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-10-16T00:00:00",
+        "task_age_days": 639,
+        "days_past_due": 638,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Melissa Bonnette"
+      },
+      {
+        "task_id": 128269,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-10-17T09:32:00",
+        "date_received": "2023-10-16T11:39:52.837000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-10-16T00:00:00",
+        "task_age_days": 639,
+        "days_past_due": 638,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Melissa Bonnette"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "MP uploaded to PD\n_______________________\n\nClient Andy-Could I get this one sketched out please? We will be finishing it this week. Thank you\n",
+    "guidelines": {
+      "carrier_id": 91,
+      "carrier_name": "Oregon Mutual Ins.",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_con",
+    "archetype_label": "Program | Sketch | CON",
+    "is_program": true,
+    "order_type": "Sketch",
+    "job_type": "CON",
+    "job_details": {
+      "job_id": 44955,
+      "job_number": "726066 - CON",
+      "job_status": "Completed",
+      "insured_name": "Dana Martinez",
+      "client_project_number": "240705-6102WarrenDr",
+      "client_poc": null,
+      "insurance_carrier": "Allstate",
+      "insurance_claim_number": "0760952630",
+      "managed_repair_program": "Rainbow Corp",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch",
+      "job_type": "CON",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2024-07-09T20:18:30.086000+00:00",
+      "client_name": "Rainbow Restoration of St. Louis",
+      "client_location": "Fairview Heights, IL"
+    },
+    "tasks": [
+      {
+        "task_id": 213481,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-07-10T14:18:00",
+        "date_received": "2024-07-09T16:18:30.086000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-07-09T00:00:00",
+        "task_age_days": 372,
+        "days_past_due": 371,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Amaleed Alsultan"
+      },
+      {
+        "task_id": 213482,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-07-10T16:18:00",
+        "date_received": "2024-07-09T16:18:30.086000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-07-09T00:00:00",
+        "task_age_days": 372,
+        "days_past_due": 371,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Amaleed Alsultan"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "Sketch off Matterport\n\nClient Melissa -\nWe are only handling the contents portion of this claim, but the adjuster has asked for the esx file. Please enter the sketch from the matterport. Thanks.",
+    "guidelines": {
+      "carrier_id": 6,
+      "carrier_name": "Allstate",
+      "mrp_id": 10,
+      "mrp_name": "Rainbow Corp"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_mld",
+    "archetype_label": "Program | Sketch | MLD",
+    "is_program": true,
+    "order_type": "Sketch",
+    "job_type": "MLD",
+    "job_details": {
+      "job_id": 58447,
+      "job_number": "736632 - MLD",
+      "job_status": "Completed",
+      "insured_name": "Robert Redd",
+      "client_project_number": "25-0047-MLD",
+      "client_poc": null,
+      "insurance_carrier": "Unk",
+      "insurance_claim_number": "TBD",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch",
+      "job_type": "MLD",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2025-04-30T19:49:39+00:00",
+      "client_name": "High Caliber Restoration",
+      "client_location": "Mansfield,Texas"
+    },
+    "tasks": [
+      {
+        "task_id": 281245,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-01T15:49:39",
+        "date_received": "2025-04-30T15:49:39",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-04-30T00:00:00",
+        "task_age_days": 77,
+        "days_past_due": 76,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Ronel Juanico"
+      },
+      {
+        "task_id": 281244,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-01T13:49:39",
+        "date_received": "2025-04-30T15:49:39",
+        "date_info_available": "2025-04-30T15:49:39",
+        "task_creation_date": "2025-04-30T00:00:00",
+        "task_age_days": 77,
+        "days_past_due": 76,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Ronel Juanico"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "ESTIMATOR:  Job was missed in intake on 4/18 urgent.\n\n**Matterport uploaded to PD (2)**\n_______________________________________________________________________________________________\n\nClient Tony Wrote:\n\nA Note has been added to the Job for (Robert Redd) with the Job Number (25-0047-MLD)\nWeScope, can you please do the sketch only on this job ASAP. We requested this on the 18th and haven't see anything back in return. We do not have a shell for this one so just stick it in an Xactimate file and name it Robert Redd_MIT\n\n4/18  Please provide sketch for both plans in one Xactimate sketch. One is the basement and one is the restaurant.",
+    "guidelines": {
+      "carrier_id": 125,
+      "carrier_name": "Unk",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_rfg",
+    "archetype_label": "Program | Sketch | RFG",
+    "is_program": true,
+    "order_type": "Sketch",
+    "job_type": "RFG",
+    "job_details": {
+      "job_id": 44166,
+      "job_number": "725423 - RFG",
+      "job_status": "Completed",
+      "insured_name": "118 Miles St. ",
+      "client_project_number": "118 Miles St - RFG",
+      "client_poc": "info ",
+      "insurance_carrier": "N/A",
+      "insurance_claim_number": "",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch",
+      "job_type": "RFG",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2024-06-25T15:00:00+00:00",
+      "client_name": "Penn Restoration",
+      "client_location": "Bellefonte, PA "
+    },
+    "tasks": [
+      {
+        "task_id": 209367,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-06-26T09:00:00",
+        "date_received": "2024-06-25T11:00:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-06-25T00:00:00",
+        "task_age_days": 386,
+        "days_past_due": 385,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Robert Broadwell"
+      },
+      {
+        "task_id": 209368,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-06-26T11:00:00",
+        "date_received": "2024-06-25T11:00:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-06-25T00:00:00",
+        "task_age_days": 386,
+        "days_past_due": 385,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Robert Broadwell"
+      },
+      {
+        "task_id": 210572,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Client / Contractor",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2024-06-28T18:02:00",
+        "date_received": "2024-06-27T18:02:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-06-28T00:00:00",
+        "task_age_days": 383,
+        "days_past_due": 383,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Bryan Werling"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 5,
+        "system_name": "Alacrity"
+      },
+      {
+        "system_id": 7,
+        "system_name": "DASH"
+      },
+      {
+        "system_id": 44,
+        "system_name": "EagleView"
+      },
+      {
+        "system_id": 1,
+        "system_name": "Email"
+      },
+      {
+        "system_id": 45,
+        "system_name": "MICA Pro"
+      },
+      {
+        "system_id": 6,
+        "system_name": "Matterport"
+      },
+      {
+        "system_id": 4,
+        "system_name": "Symbility"
+      },
+      {
+        "system_id": 3,
+        "system_name": "XactAnalysis"
+      },
+      {
+        "system_id": 42,
+        "system_name": "Xactimate (Online)"
+      }
+    ],
+    "has_matterport": true,
+    "has_companycam": false,
+    "has_crm": true,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "***HOVER uploaded to PD - NO ESX.\n\n\nEmailed client back for additional information if available. NOT IN DASH - please send back to OLIVIA @ olivia@wescope.com for delivery to client\n\n\nThanks!\n\n-Client Toby-\nRoof only drawing please",
+    "guidelines": {
+      "carrier_id": 138,
+      "carrier_name": "N/A",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_stc",
+    "archetype_label": "Program | Sketch | STC",
+    "is_program": true,
+    "order_type": "Sketch",
+    "job_type": "STC",
+    "job_details": {
+      "job_id": 55137,
+      "job_number": "734046 - STC",
+      "job_status": "Completed",
+      "insured_name": "Michael Ramirez",
+      "client_project_number": "H25-0016-FSM",
+      "client_poc": "Nick Reino",
+      "insurance_carrier": "Stillwater",
+      "insurance_claim_number": "HO0001111406",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch",
+      "job_type": "STC",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2025-02-10T22:27:32.068000+00:00",
+      "client_name": "O So Kleen - Hermiston",
+      "client_location": "Hermiston, OR"
+    },
+    "tasks": [
+      {
+        "task_id": 265201,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": true,
+        "date_due": "2025-02-11T13:57:46",
+        "date_received": "2025-02-10T17:27:32.068000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-02-10T00:00:00",
+        "task_age_days": 156,
+        "days_past_due": 155,
+        "priority_category": "Urgent",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Evan Boisvert"
+      },
+      {
+        "task_id": 265200,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": true,
+        "date_due": "2025-02-11T15:27:32.068000",
+        "date_received": "2025-02-10T13:57:46.847000",
+        "date_info_available": "2025-02-10T13:57:46.847000",
+        "task_creation_date": "2025-02-10T00:00:00",
+        "task_age_days": 156,
+        "days_past_due": 155,
+        "priority_category": "Urgent",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Evan Boisvert"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "- Client Philip -\n\nEmail received on: Feb 10, 2025 5:27 pm\n\nWeScope - Any chance you could work out a sketch based on the inspection Matterport scan? Adjuster wanted an esx to start working out a repair estimate. I let him know that it would take a couple hours and that I could send him an ESX by tomorrow. \n\nMatterport saved to DASH.",
+    "guidelines": {
+      "carrier_id": 116,
+      "carrier_name": "Stillwater",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_str",
+    "archetype_label": "Program | Sketch | STR",
+    "is_program": true,
+    "order_type": "Sketch",
+    "job_type": "STR",
+    "job_details": {
+      "job_id": 59160,
+      "job_number": "737195 - STR",
+      "job_status": "Completed",
+      "insured_name": "100 W 4th",
+      "client_project_number": "100 W 4th",
+      "client_poc": null,
+      "insurance_carrier": "Unk",
+      "insurance_claim_number": "unk",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch",
+      "job_type": "STR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2025-05-21T18:03:31+00:00",
+      "client_name": "ARI Construction",
+      "client_location": "Webster, TX"
+    },
+    "tasks": [
+      {
+        "task_id": 284867,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T12:03:00",
+        "date_received": "2025-05-21T14:03:31",
+        "date_info_available": "2025-05-21T14:03:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Sherisha Smith"
+      },
+      {
+        "task_id": 284868,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T14:03:00",
+        "date_received": "2025-05-21T14:03:31",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Sherisha Smith"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "** Added 2 MP's to PD\n\n---------------------------\n\n- Client Cameron -\n\nGood afternoon,\n\nWe got a general remodel claim. I need a sketch only on this one for the time being. There are 2 matterports for it. The one that says interior is the main portion. The one that doesn't say interior is a storage room that I need attached to the back side of the downstairs bathroom.\n\nRegards,\n\nCameron Temperton\n\nARI Construction\n\n(832) 415-6029",
+    "guidelines": {
+      "carrier_id": 125,
+      "carrier_name": "Unk",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_tmp",
+    "archetype_label": "Program | Sketch | TMP",
+    "is_program": true,
+    "order_type": "Sketch",
+    "job_type": "TMP",
+    "job_details": {
+      "job_id": 39360,
+      "job_number": "721654 - TMP",
+      "job_status": "Completed",
+      "insured_name": "Portal Glitch",
+      "client_project_number": "N/A",
+      "client_poc": "",
+      "insurance_carrier": "N/A",
+      "insurance_claim_number": "N/A",
+      "managed_repair_program": "Program",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch",
+      "job_type": "TMP",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 1,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2024-04-04T20:42:36.556000+00:00",
+      "client_name": "AAAA Retail Test",
+      "client_location": ", "
+    },
+    "tasks": [
+      {
+        "task_id": 184428,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-04-05T14:43:00",
+        "date_received": "2024-04-04T16:42:36.556000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-04-04T00:00:00",
+        "task_age_days": 468,
+        "days_past_due": 467,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Melissa Bonnette"
+      },
+      {
+        "task_id": 184429,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-04-05T16:43:00",
+        "date_received": "2024-04-04T16:42:36.556000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-04-04T00:00:00",
+        "task_age_days": 468,
+        "days_past_due": 467,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Melissa Bonnette"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "Portal glitching or reassigning?  Unsure - adding task for time tracking.",
+    "guidelines": {
+      "carrier_id": 138,
+      "carrier_name": "N/A",
+      "mrp_id": 14,
+      "mrp_name": "Program"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_wtr",
+    "archetype_label": "Program | Sketch | WTR",
+    "is_program": true,
+    "order_type": "Sketch",
+    "job_type": "WTR",
+    "job_details": {
+      "job_id": 59164,
+      "job_number": "737198 - WTR",
+      "job_status": "Completed",
+      "insured_name": "Matt Brenegan",
+      "client_project_number": "25-0056-MIT",
+      "client_poc": null,
+      "insurance_carrier": "Travelers",
+      "insurance_claim_number": "JBK7169001H",
+      "managed_repair_program": "Westhill",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch",
+      "job_type": "WTR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2025-05-21T19:33:15+00:00",
+      "client_name": "High Caliber Restoration",
+      "client_location": "Mansfield,Texas"
+    },
+    "tasks": [
+      {
+        "task_id": 284883,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T15:33:00",
+        "date_received": "2025-05-21T15:33:15",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Ronel Juanico"
+      },
+      {
+        "task_id": 284882,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T13:33:00",
+        "date_received": "2025-05-21T15:33:15",
+        "date_info_available": "2025-05-21T15:33:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Ronel Juanico"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "Attachments \nMatterport \n\n***sketch only request *******\n\nA Note has been added to the Job for (Matt Brenegan) with the Job Number (25-0056-MIT)\nWescope - Can you please sketch this job? \nNote emailed to the following:\n\nAdditional Emails:estimator@hcrestores.com",
+    "guidelines": {
+      "carrier_id": 117,
+      "carrier_name": "Travelers",
+      "mrp_id": 17,
+      "mrp_name": "Westhill"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_scope_asb",
+    "archetype_label": "Program | Sketch & Scope | ASB",
+    "is_program": true,
+    "order_type": "Sketch & Scope",
+    "job_type": "ASB",
+    "job_details": {
+      "job_id": 58581,
+      "job_number": "736362 - ASB",
+      "job_status": "Completed",
+      "insured_name": "Justin Hayden",
+      "client_project_number": "24-0260-AB",
+      "client_poc": null,
+      "insurance_carrier": "USAA",
+      "insurance_claim_number": "042406160-802",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch & Scope",
+      "job_type": "ASB",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 13855.75,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Small (10k-50k)",
+      "date_request_received": "2025-05-05T18:23:22+00:00",
+      "client_name": "AmeriTribe",
+      "client_location": "Chesapeake, VA"
+    },
+    "tasks": [
+      {
+        "task_id": 281950,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-06T14:23:22",
+        "date_received": "2025-05-05T14:23:22",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-05T00:00:00",
+        "task_age_days": 72,
+        "days_past_due": 71,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 281949,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-06T12:23:22",
+        "date_received": "2025-05-05T14:23:22",
+        "date_info_available": "2025-05-05T14:23:22",
+        "task_creation_date": "2025-05-05T00:00:00",
+        "task_age_days": 72,
+        "days_past_due": 71,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 284344,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Adjuster",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-20T13:57:00",
+        "date_received": "2025-05-19T13:57:00",
+        "date_info_available": "2025-05-19T13:57:00",
+        "task_creation_date": "2025-05-19T00:00:00",
+        "task_age_days": 58,
+        "days_past_due": 57,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 284596,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Client / Contractor",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-21T15:21:00",
+        "date_received": "2025-05-20T15:21:00",
+        "date_info_available": "2025-05-20T15:21:00",
+        "task_creation_date": "2025-05-20T00:00:00",
+        "task_age_days": 57,
+        "days_past_due": 56,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Danny Johnson"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "**AB Testing Report uploaded to PD**\n**Scope Notes below**\n**Photos uploaded to PD**\n___________________________________________\n\nWeScope- Please prepare an AB estimate for this job. Lab report is uploaded under Misc Doc. There's some photos uploaded as well. In the back of the house we will have to remove the AB siding on the upper section to replace the damaged sheathing behind it. It will require ladders and scaffolding. The section we will need to abate is on the second story, 8'x50'. Call steve with questions",
+    "guidelines": {
+      "carrier_id": 128,
+      "carrier_name": "USAA",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_scope_bio",
+    "archetype_label": "Program | Sketch & Scope | BIO",
+    "is_program": true,
+    "order_type": "Sketch & Scope",
+    "job_type": "BIO",
+    "job_details": {
+      "job_id": 58148,
+      "job_number": "736390 - BIO",
+      "job_status": "Completed",
+      "insured_name": "Viridian Management | Ramo Flat Apartment: Unit #10",
+      "client_project_number": "H25-0079-BIO",
+      "client_poc": "Nick Reino",
+      "insurance_carrier": "N/A",
+      "insurance_claim_number": "Self Pay",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch & Scope",
+      "job_type": "BIO",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 4639.97,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-04-22T23:47:18+00:00",
+      "client_name": "O So Kleen - Hermiston",
+      "client_location": "Hermiston, OR"
+    },
+    "tasks": [
+      {
+        "task_id": 279782,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-04-23T07:47:18",
+        "date_received": "2025-04-22T19:47:18",
+        "date_info_available": "2025-04-22T19:47:18",
+        "task_creation_date": "2025-04-22T00:00:00",
+        "task_age_days": 85,
+        "days_past_due": 84,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Ronel Juanico"
+      },
+      {
+        "task_id": 279784,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-04-23T19:47:18",
+        "date_received": "2025-04-22T19:47:18",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-04-22T00:00:00",
+        "task_age_days": 85,
+        "days_past_due": 84,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 279783,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-04-23T17:47:18",
+        "date_received": "2025-04-22T19:47:18",
+        "date_info_available": "2025-04-22T19:47:18",
+        "task_creation_date": "2025-04-22T00:00:00",
+        "task_age_days": 85,
+        "days_past_due": 84,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Cameron Caccavale"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "** Post Demo Matterport linked\n\nClient Phil -\n\nWeScope - Ready for cleaning estimate. \n\nThis was a bio, with three small areas of blood stains on the carpet and a couple drops on the dining room table, chair and pantry door. \n\nSmell was almost non-existent but I still ran a negative air out the back door for the day. \n\nOnly 1 technician (one heavy duty PPE), no floor protection. \n\nConsider 60 SF of the living room carpet and pad as category 3 with 60 SF of detailed hepa vacuuming. \n\nLight floor clean on all remaining living, hallway and master bedroom areas. \n\nFog antimicrobial throughout the unit, include a clean table, clean chair and clean one side of door line item. \n\nInclude move out reset, normal size room for both the living room and master bedroom. \n\nOne truckload worth of debris. \n\nInclude 130 additional miles as the home was 190 miles roundtrip from the office with a standard roundtrip servicing range of 60 miles. \n\nCan also include an hour of supervisory cleaning time.",
+    "guidelines": {
+      "carrier_id": 138,
+      "carrier_name": "N/A",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_scope_con",
+    "archetype_label": "Program | Sketch & Scope | CON",
+    "is_program": true,
+    "order_type": "Sketch & Scope",
+    "job_type": "CON",
+    "job_details": {
+      "job_id": 13415,
+      "job_number": "700428 - CON",
+      "job_status": "Completed",
+      "insured_name": "Patrick and Diane Hoye",
+      "client_project_number": "23-0096-RCON",
+      "client_poc": "",
+      "insurance_carrier": "N/A",
+      "insurance_claim_number": "Self Pay",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch & Scope",
+      "job_type": "CON",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 28376.18,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Small (10k-50k)",
+      "date_request_received": "2026-02-17T18:06:00+00:00",
+      "client_name": "Case Restoration Co",
+      "client_location": "Tennessee"
+    },
+    "tasks": [
+      {
+        "task_id": 54457,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-02-20T11:06:00",
+        "date_received": "2023-02-17T13:14:26.028000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-02-17T00:00:00",
+        "task_age_days": 880,
+        "days_past_due": 877,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Ben Boutwell"
+      },
+      {
+        "task_id": 54458,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-02-20T13:06:00",
+        "date_received": "2023-02-17T13:14:26.682000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-02-17T00:00:00",
+        "task_age_days": 880,
+        "days_past_due": 877,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Ben Boutwell"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "***Scope Only***\n\n- Scope - \nClient Casey\n\nTaking bid and putting into XM8 pricing\n\nBid attached\n\nAttached above is the sub bid that I need put into XM8 line items, I know that it will probably come out under the sub bid and that Is ok. Can you get this done as soon as possible.\n\n\n\n",
+    "guidelines": {
+      "carrier_id": 138,
+      "carrier_name": "N/A",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_scope_mld",
+    "archetype_label": "Program | Sketch & Scope | MLD",
+    "is_program": true,
+    "order_type": "Sketch & Scope",
+    "job_type": "MLD",
+    "job_details": {
+      "job_id": 59005,
+      "job_number": "737077 - MLD",
+      "job_status": "Completed",
+      "insured_name": "Lamb Weston Waste Water Plant",
+      "client_project_number": "H25-0097-MLD",
+      "client_poc": "Nick Reino",
+      "insurance_carrier": "Unk",
+      "insurance_claim_number": "TBD",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch & Scope",
+      "job_type": "MLD",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 53620.95,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Medium (50k-100k)",
+      "date_request_received": "2025-05-16T17:50:00+00:00",
+      "client_name": "O So Kleen - Hermiston",
+      "client_location": "Hermiston, OR"
+    },
+    "tasks": [
+      {
+        "task_id": 284102,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-17T01:50:00",
+        "date_received": "2025-05-16T13:50:00",
+        "date_info_available": "2025-05-16T13:50:00",
+        "task_creation_date": "2025-05-16T00:00:00",
+        "task_age_days": 61,
+        "days_past_due": 60,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Evan Boisvert"
+      },
+      {
+        "task_id": 284103,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-19T16:00:00",
+        "date_received": "2025-05-16T13:50:00",
+        "date_info_available": "2025-05-16T13:50:00",
+        "task_creation_date": "2025-05-16T00:00:00",
+        "task_age_days": 61,
+        "days_past_due": 58,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284104,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-19T18:00:00",
+        "date_received": "2025-05-16T13:50:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-16T00:00:00",
+        "task_age_days": 61,
+        "days_past_due": 58,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Cameron Caccavale"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "** Added ESX to PD\n** Photos in DASH\n\n--------------------------\n\n- Client Philip -\n\nWeScope - Can you work out a preliminary remediation estimate for us on this one? Forrest and I will need to go through and review as it's a complex job.\n\nCouldn't Matterport due to the conditions so I took several photos and then sketched it out on paper. Just got the sketch finished on Xactimate (currently in the cloud).\n\nMetal building and masonry building are connected and have similar issues with staining and mold growth on walls and ceilings in the corners. We will need to treat the entire area in the metal building (primarily focus will be covering the sluff units and then pressure washing off a majority of the ceiling, walls and i-beams) whereas the masonry room the primary focus is the balcony area with extensive growth).\n\nWe are working with the plant manager on this and will need some significant overhead included. They let us know that they'd be shutting off lights for us to properly treat the ceiling, so we will need temporary lights on-site. Will likely need to rent a 45' extendable boom lift for a weeks' worth of time for the metal areas that we can't properly extend to and spray from the upper walkway. Significant cleaning and wipe down will be needed on the balconies, walk-ways and stairs. Include significant PPE for 3 technicians for 2 weeks' worth of remediation.",
+    "guidelines": {
+      "carrier_id": 125,
+      "carrier_name": "Unk",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_scope_rfg",
+    "archetype_label": "Program | Sketch & Scope | RFG",
+    "is_program": true,
+    "order_type": "Sketch & Scope",
+    "job_type": "RFG",
+    "job_details": {
+      "job_id": 59180,
+      "job_number": "737212 - RFG",
+      "job_status": "Completed",
+      "insured_name": "Andy Clements",
+      "client_project_number": "R-25-0115-RFG",
+      "client_poc": null,
+      "insurance_carrier": "State Farm",
+      "insurance_claim_number": "tbd",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch & Scope",
+      "job_type": "RFG",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 2376.16,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-05-21T21:01:00+00:00",
+      "client_name": "Southern Homes and Restoration",
+      "client_location": "Alabama"
+    },
+    "tasks": [
+      {
+        "task_id": 284948,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T09:52:00",
+        "date_received": "2025-05-21T17:01:25",
+        "date_info_available": "2025-05-21T21:52:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Robert Broadwell"
+      },
+      {
+        "task_id": 284950,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-23T21:52:00",
+        "date_received": "2025-05-21T17:01:25",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 54,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 284949,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-23T19:52:00",
+        "date_received": "2025-05-21T17:01:00",
+        "date_info_available": "2025-05-21T21:52:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 54,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Danny Johnson"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "**Client advised sketch without EV for now. I advised we will sketch but SF will require the EV report - O.\n\n**SKETCH**\nThe shed is 10x12. \n\n-Client Carson-\nInspected job. The shed is 10x12. 3 tab shingles needing replaced on the full shed. As well as 3 sheets of 4x8 3/4\" decking board. Photo of shed is uploaded into the inspection album.\nThis is a non program job",
+    "guidelines": {
+      "carrier_id": 112,
+      "carrier_name": "State Farm",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_scope_stc",
+    "archetype_label": "Program | Sketch & Scope | STC",
+    "is_program": true,
+    "order_type": "Sketch & Scope",
+    "job_type": "STC",
+    "job_details": {
+      "job_id": 59062,
+      "job_number": "737121 - STC",
+      "job_status": "Completed",
+      "insured_name": "Scooter R Clark",
+      "client_project_number": "TU-25-0281-STC",
+      "client_poc": null,
+      "insurance_carrier": "N/A",
+      "insurance_claim_number": "",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch & Scope",
+      "job_type": "STC",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 106639.54,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Large (100k+)",
+      "date_request_received": "2025-05-19T18:38:00+00:00",
+      "client_name": "SM RSI - Tulsa",
+      "client_location": "Tulsa"
+    },
+    "tasks": [
+      {
+        "task_id": 284369,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-20T02:38:00",
+        "date_received": "2025-05-19T14:38:00",
+        "date_info_available": "2025-05-19T14:38:00",
+        "task_creation_date": "2025-05-19T00:00:00",
+        "task_age_days": 58,
+        "days_past_due": 57,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Evan Boisvert"
+      },
+      {
+        "task_id": 284371,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-20T14:38:00",
+        "date_received": "2025-05-19T14:38:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-19T00:00:00",
+        "task_age_days": 58,
+        "days_past_due": 57,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284370,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-20T12:38:00",
+        "date_received": "2025-05-19T14:38:00",
+        "date_info_available": "2025-05-19T14:38:00",
+        "task_creation_date": "2025-05-19T00:00:00",
+        "task_age_days": 58,
+        "days_past_due": 57,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284593,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-20T15:42:00",
+        "date_received": "2025-05-20T14:42:00",
+        "date_info_available": "2025-05-20T14:42:00",
+        "task_creation_date": "2025-05-20T00:00:00",
+        "task_age_days": 57,
+        "days_past_due": 57,
+        "priority_category": "Standard",
+        "task_type_key": 16,
+        "task_type_name": "Upload Only",
+        "assigned_to_name": "Cameron Caccavale"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 47,
+        "system_name": "Contents Track"
+      }
+    ],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "** Added ESX to PD\n\n---------------------\n\n- Client Jim -\n\nEstimator, prepare an Xactimate non-program structure cleaning estimate. Include floors, walls and ceilings, if you have any questions please call Tre Weaver 405-967-0897. We have placed a shell on the cloud in the Xact Tulsa instance that has the DocuSketch sketch in it named TU-25-0281-STC. Once completed, please add it to the accounting and documents>estimates sections of Restore with the date uploaded in the file name, thank you.",
+    "guidelines": {
+      "carrier_id": 138,
+      "carrier_name": "N/A",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_scope_str",
+    "archetype_label": "Program | Sketch & Scope | STR",
+    "is_program": true,
+    "order_type": "Sketch & Scope",
+    "job_type": "STR",
+    "job_details": {
+      "job_id": 59226,
+      "job_number": "737251 - STR",
+      "job_status": "Completed",
+      "insured_name": "Darlene Klaff",
+      "client_project_number": "SR-25-0126-STR",
+      "client_poc": null,
+      "insurance_carrier": "State Farm",
+      "insurance_claim_number": "TBD",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Sketch & Scope",
+      "job_type": "STR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 1242.4,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-05-22T20:31:13+00:00",
+      "client_name": "Southern Homes and Restoration",
+      "client_location": "Alabama"
+    },
+    "tasks": [
+      {
+        "task_id": 285175,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-26T16:00:00",
+        "date_received": "2025-05-22T16:31:13",
+        "date_info_available": "2025-05-22T16:31:00",
+        "task_creation_date": "2025-05-22T00:00:00",
+        "task_age_days": 55,
+        "days_past_due": 51,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 285176,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-26T18:00:00",
+        "date_received": "2025-05-22T16:31:13",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-22T00:00:00",
+        "task_age_days": 55,
+        "days_past_due": 51,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 285193,
+        "task_name": null,
+        "task_status": "",
+        "task_status_desc": "Cancelled",
+        "revision_type": null,
+        "is_cancelled": true,
+        "is_urgent": false,
+        "date_due": "2025-05-23T18:00:00",
+        "date_received": "2025-05-23T06:00:02.412000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-23T00:00:00",
+        "task_age_days": 54,
+        "days_past_due": 54,
+        "priority_category": "Standard",
+        "task_type_key": 17,
+        "task_type_name": "ARISE Quality Review",
+        "assigned_to_name": "Jeffrey Reid"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "Scope of work\n\u2022 32' painted gutter replacement\n\u2022 2 downspouts 15'",
+    "guidelines": {
+      "carrier_id": 112,
+      "carrier_name": "State Farm",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_scope_tmp",
+    "archetype_label": "Program | Sketch & Scope | TMP",
+    "is_program": true,
+    "order_type": "Sketch & Scope",
+    "job_type": "TMP",
+    "job_details": {
+      "job_id": 59166,
+      "job_number": "737200 - TMP",
+      "job_status": "Completed",
+      "insured_name": "Samantha Clem",
+      "client_project_number": "25-0224-TMP",
+      "client_poc": "Ariel  Ramirez",
+      "insurance_carrier": "Liberty Mutual",
+      "insurance_claim_number": "059374021",
+      "managed_repair_program": "Lionsbridge",
+      "estimation_software": "Symbility",
+      "order_type": "Sketch & Scope",
+      "job_type": "TMP",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 220.23,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-05-21T19:10:42+00:00",
+      "client_name": "All Restored Inc",
+      "client_location": "Delaware"
+    },
+    "tasks": [
+      {
+        "task_id": 284890,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T13:30:00",
+        "date_received": "2025-05-21T15:10:42",
+        "date_info_available": "2025-05-21T15:30:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 284891,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-22T15:30:00",
+        "date_received": "2025-05-21T15:10:42",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Cameron Caccavale"
+      },
+      {
+        "task_id": 285704,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-27T15:24:00",
+        "date_received": "2025-05-27T14:24:00",
+        "date_info_available": "2025-05-27T14:24:00",
+        "task_creation_date": "2025-05-27T00:00:00",
+        "task_age_days": 50,
+        "days_past_due": 50,
+        "priority_category": "Standard",
+        "task_type_key": 16,
+        "task_type_name": "Upload Only",
+        "assigned_to_name": "Cameron Caccavale"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "Attachments -\nRough Draft\n\nScope -- \nrewrite in SYM\n\nGood afternoon, estimating team. Attached to DASH is the Xactimate version of this tarp-up. Can you convert this estimate to Symbility? The Symbility file has already been created; it just needs the actual estimate. Please let me know if you have any questions. Thank you!",
+    "guidelines": {
+      "carrier_id": 145,
+      "carrier_name": "Liberty Mutual",
+      "mrp_id": 6,
+      "mrp_name": "Lionsbridge"
+    }
+  },
+  {
+    "archetype_id": "pgm_sketch_scope_wtr",
+    "archetype_label": "Program | Sketch & Scope | WTR",
+    "is_program": true,
+    "order_type": "Sketch & Scope",
+    "job_type": "WTR",
+    "job_details": {
+      "job_id": 12079,
+      "job_number": "507947 - WTR",
+      "job_status": "Completed",
+      "insured_name": "Michael Brazzle",
+      "client_project_number": "MSMO-22-0530-E",
+      "client_poc": "",
+      "insurance_carrier": "Liberty Mutual",
+      "insurance_claim_number": " 051988073",
+      "managed_repair_program": "Paul Davis Corp",
+      "estimation_software": "Symbility",
+      "order_type": "Sketch & Scope",
+      "job_type": "WTR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 1766.54,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2028-01-24T18:18:00+00:00",
+      "client_name": "PDR - MSMO",
+      "client_location": "Missouri"
+    },
+    "tasks": [
+      {
+        "task_id": 48349,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-01-24T17:18:00",
+        "date_received": "2023-01-24T13:32:41.598000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-01-24T00:00:00",
+        "task_age_days": 904,
+        "days_past_due": 904,
+        "priority_category": "Standard",
+        "task_type_key": 1,
+        "task_type_name": "Sketch",
+        "assigned_to_name": "Melissa Bonnette"
+      },
+      {
+        "task_id": 48350,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-01-25T11:18:00",
+        "date_received": "2023-01-24T13:32:42.071000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-01-24T00:00:00",
+        "task_age_days": 904,
+        "days_past_due": 903,
+        "priority_category": "Standard",
+        "task_type_key": 4,
+        "task_type_name": "Scope",
+        "assigned_to_name": "Pablo Segura"
+      },
+      {
+        "task_id": 48351,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-01-25T13:18:00",
+        "date_received": "2023-01-24T13:32:44.093000",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-01-24T00:00:00",
+        "task_age_days": 904,
+        "days_past_due": 903,
+        "priority_category": "Standard",
+        "task_type_key": 5,
+        "task_type_name": "QA",
+        "assigned_to_name": "Pablo Segura"
+      },
+      {
+        "task_id": 48461,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Client / Contractor",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-01-25T17:21:00",
+        "date_received": "2023-01-24T17:21:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-01-24T00:00:00",
+        "task_age_days": 904,
+        "days_past_due": 903,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Pablo Segura"
+      },
+      {
+        "task_id": 48440,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Insurance Carrier",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-01-25T16:18:00",
+        "date_received": "2023-01-24T16:18:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-01-24T00:00:00",
+        "task_age_days": 904,
+        "days_past_due": 903,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Pablo Segura"
+      },
+      {
+        "task_id": 50116,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Insurance Carrier",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-02-01T17:36:00",
+        "date_received": "2023-01-31T17:36:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-01-31T00:00:00",
+        "task_age_days": 897,
+        "days_past_due": 896,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Pablo Segura"
+      },
+      {
+        "task_id": 50590,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Insurance Carrier",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-02-03T11:18:00",
+        "date_received": "2023-02-02T11:18:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-02-02T00:00:00",
+        "task_age_days": 895,
+        "days_past_due": 894,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Pablo Segura"
+      },
+      {
+        "task_id": 51726,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Insurance Carrier",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2023-02-08T11:22:00",
+        "date_received": "2023-02-07T11:22:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2023-02-07T00:00:00",
+        "task_age_days": 890,
+        "days_past_due": 889,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Pablo Segura"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "- Sketch - \nSketch per attached\n\n- Scope - \nClient Caitie\n\nCan we please have an ASAP MIT estimate completed and uploaded to symbility. Scope is written on the sketch in the photos tab. MICA,work autho, COC and photos have been added to Symb. Thank you! \n\nScope per MICA attached",
+    "guidelines": {
+      "carrier_id": 145,
+      "carrier_name": "Liberty Mutual",
+      "mrp_id": 8,
+      "mrp_name": "Paul Davis Corp"
+    }
+  },
+  {
+    "archetype_id": "pgm_supplemental_asb",
+    "archetype_label": "Program | Supplemental | ASB",
+    "is_program": true,
+    "order_type": "Supplemental",
+    "job_type": "ASB",
+    "job_details": {
+      "job_id": 46321,
+      "job_number": "721331 - ASB - 2",
+      "job_status": "Completed",
+      "insured_name": "Janewood West Apartments: Units 12 & 22",
+      "client_project_number": "Janewood West Apartments: Units 12 ONLY",
+      "client_poc": null,
+      "insurance_carrier": "State Farm",
+      "insurance_claim_number": "3761T506J",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Supplemental",
+      "job_type": "ASB",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 68970.8,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Medium (50k-100k)",
+      "date_request_received": "2024-08-02T15:31:00+00:00",
+      "client_name": "PDR - GVWA",
+      "client_location": "Washington "
+    },
+    "tasks": [
+      {
+        "task_id": 220380,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-08-05T11:31:00",
+        "date_received": "2024-08-02T11:31:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-08-02T00:00:00",
+        "task_age_days": 348,
+        "days_past_due": 345,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Whitney Hawkins "
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "** Added Janewood West Supplemental Abatement Proposal-Unit #!2 - to PD\n\n- Client Sarah -\n\n\nWeScope - please prepare a 2nd, totally separate estimate for additional abatement in Unit 12 only, 1st floor living area, 2nd floor loft area. I have attached Tony's proposal. This should be uploaded on this tab using the \"Supplement\" category in estimate tracker, but do not add it to the existing asbestos abatement estimate. This will be for removal of the remaining asbestos-containing popcorn ceiling drywall, we are not attempting to scrape due to multiple layers of paint. Once estimate is written, please send it back to Tony and myself for review before submitting to carrier for preapproval.",
+    "guidelines": {
+      "carrier_id": 112,
+      "carrier_name": "State Farm",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_supplemental_con",
+    "archetype_label": "Program | Supplemental | CON",
+    "is_program": true,
+    "order_type": "Supplemental",
+    "job_type": "CON",
+    "job_details": {
+      "job_id": 58605,
+      "job_number": "735853 - CON - 6",
+      "job_status": "Completed",
+      "insured_name": "Rhys John",
+      "client_project_number": "25-0062-CON (Cleaning/Storage)",
+      "client_poc": null,
+      "insurance_carrier": "Allstate",
+      "insurance_claim_number": "0786926386",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Supplemental",
+      "job_type": "CON",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 18910.06,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Small (10k-50k)",
+      "date_request_received": "2025-05-05T20:07:00+00:00",
+      "client_name": "Penn Restoration",
+      "client_location": "Bellefonte, PA "
+    },
+    "tasks": [
+      {
+        "task_id": 282081,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-06T16:07:00",
+        "date_received": "2025-05-05T16:07:00",
+        "date_info_available": "2025-05-05T16:07:00",
+        "task_creation_date": "2025-05-06T00:00:00",
+        "task_age_days": 71,
+        "days_past_due": 71,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Zachary Strohmaier"
+      },
+      {
+        "task_id": 286703,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-06-02T11:54:00",
+        "date_received": "2025-06-02T10:54:00",
+        "date_info_available": "2025-06-02T10:54:00",
+        "task_creation_date": "2025-06-02T00:00:00",
+        "task_age_days": 44,
+        "days_past_due": 44,
+        "priority_category": "Standard",
+        "task_type_key": 16,
+        "task_type_name": "Upload Only",
+        "assigned_to_name": "Zachary Strohmaier"
+      },
+      {
+        "task_id": 288426,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Adjuster",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-06-12T08:02:00",
+        "date_received": "2025-06-11T08:02:00",
+        "date_info_available": "2025-06-11T08:02:00",
+        "task_creation_date": "2025-06-11T00:00:00",
+        "task_age_days": 35,
+        "days_past_due": 34,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Ben Pacella"
+      },
+      {
+        "task_id": 289167,
+        "task_name": null,
+        "task_status": "Canceled",
+        "task_status_desc": "Canceled",
+        "revision_type": "Client / Contractor",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-06-17T10:47:00",
+        "date_received": "2025-06-16T10:47:00",
+        "date_info_available": "2025-06-16T10:47:00",
+        "task_creation_date": "2025-06-16T00:00:00",
+        "task_age_days": 30,
+        "days_past_due": 29,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Ben Pacella"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 5,
+        "system_name": "Alacrity"
+      },
+      {
+        "system_id": 7,
+        "system_name": "DASH"
+      },
+      {
+        "system_id": 44,
+        "system_name": "EagleView"
+      },
+      {
+        "system_id": 1,
+        "system_name": "Email"
+      },
+      {
+        "system_id": 45,
+        "system_name": "MICA Pro"
+      },
+      {
+        "system_id": 6,
+        "system_name": "Matterport"
+      },
+      {
+        "system_id": 4,
+        "system_name": "Symbility"
+      },
+      {
+        "system_id": 3,
+        "system_name": "XactAnalysis"
+      },
+      {
+        "system_id": 42,
+        "system_name": "Xactimate (Online)"
+      }
+    ],
+    "has_matterport": true,
+    "has_companycam": false,
+    "has_crm": true,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "Cleaning + Storage\n\nUpload to RMS",
+    "guidelines": {
+      "carrier_id": 6,
+      "carrier_name": "Allstate",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_supplemental_mld",
+    "archetype_label": "Program | Supplemental | MLD",
+    "is_program": true,
+    "order_type": "Supplemental",
+    "job_type": "MLD",
+    "job_details": {
+      "job_id": 57328,
+      "job_number": "735746 - MLD",
+      "job_status": "Completed",
+      "insured_name": "MaryAlice Ridgway",
+      "client_project_number": "H25-0053-MLD",
+      "client_poc": null,
+      "insurance_carrier": "N/A",
+      "insurance_claim_number": "",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Supplemental",
+      "job_type": "MLD",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 48685.51,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Small (10k-50k)",
+      "date_request_received": "2025-04-03T08:00:45+00:00",
+      "client_name": "O So Kleen - Hermiston",
+      "client_location": "Hermiston, OR"
+    },
+    "tasks": [
+      {
+        "task_id": 275862,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-04-04T04:00:00",
+        "date_received": "2025-04-03T04:00:45",
+        "date_info_available": "2025-04-03T04:00:00",
+        "task_creation_date": "2025-04-03T00:00:00",
+        "task_age_days": 104,
+        "days_past_due": 103,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 284876,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "Client / Contractor",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-22T14:45:00",
+        "date_received": "2025-05-21T14:45:00",
+        "date_info_available": "2025-05-21T14:45:00",
+        "task_creation_date": "2025-05-21T00:00:00",
+        "task_age_days": 56,
+        "days_past_due": 55,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Danny Johnson"
+      },
+      {
+        "task_id": 292965,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-07-07T15:18:00",
+        "date_received": "2025-07-07T14:18:00",
+        "date_info_available": "2025-07-07T15:18:00",
+        "task_creation_date": "2025-07-07T00:00:00",
+        "task_age_days": 9,
+        "days_past_due": 9,
+        "priority_category": "Standard",
+        "task_type_key": 16,
+        "task_type_name": "Upload Only",
+        "assigned_to_name": "Tiffany Hoover"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "*** Added ESX, MP and Roof RPT to PD\n** Photos in DASH\n\n------------------------------------\n\nEmail received on: Apr 3, 2025 4:00 am\n\n- Client Forrest - \n\nHey Wescope,\n\nI\u2019ve gotten most of the estimate wrapped up \u2014 all the mold remediation items have been added. This is currently a single estimate, and just a heads-up: O&P should be removed from all mold-related line items and only applied to the repair work.\n\nThe only thing left to add is the exterior scope. I won\u2019t have time to get back to this tomorrow, so I\u2019m hoping you can finish it up for me. I\u2019ll need it back by end of day tomorrow so I can send it over to the insured.\n\nHere\u2019s what still needs to be included for the exterior:\n\nReplacement of soffits (2 ft wide)\n\nFull replacement of gutters around the house\n\nInstall 10 soffit vents\n\nReplace all exterior window casings\n\nSeal all exterior window frames\n\nI don\u2019t have a full sketch of the exterior, but I\u2019ve got the interior Matterport and a sky view showing the roof dimensions \u2014 that should be enough to finish things out.\n\nIf you can have this to me by mid-afternoon, that would be perfect. Thanks again.\n\n\n\nThis should be in my Local",
+    "guidelines": {
+      "carrier_id": 138,
+      "carrier_name": "N/A",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_supplemental_rfg",
+    "archetype_label": "Program | Supplemental | RFG",
+    "is_program": true,
+    "order_type": "Supplemental",
+    "job_type": "RFG",
+    "job_details": {
+      "job_id": 55215,
+      "job_number": "734109 - RFG",
+      "job_status": "Completed",
+      "insured_name": "James Jovell",
+      "client_project_number": "JOVELL RFG",
+      "client_poc": null,
+      "insurance_carrier": "Mapfre Insurance",
+      "insurance_claim_number": "HO10037312-1",
+      "managed_repair_program": "CCC",
+      "estimation_software": "Xactimate",
+      "order_type": "Supplemental",
+      "job_type": "RFG",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 11079.74,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Small (10k-50k)",
+      "date_request_received": "2025-02-12T16:27:18.010000+00:00",
+      "client_name": "Fennell Construction",
+      "client_location": "Andover,MA"
+    },
+    "tasks": [
+      {
+        "task_id": 265621,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-02-13T11:37:00",
+        "date_received": "2025-02-12T11:27:18.010000",
+        "date_info_available": "2025-02-12T11:37:00",
+        "task_creation_date": "2025-02-12T00:00:00",
+        "task_age_days": 154,
+        "days_past_due": 153,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Candice  Morales"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "** Added EV, Scope and Photo Link to PD\n\n---------------------------------\n\n- Client Casey -\n\nHi.  Please see dropbox link below to Georgetown MA Jovell Roof Estimate.  The roof work is a supplemental to an already approved estimate the Adjuster did.  He estimated interior repairs.  So you will see that there is already $10,269.54 in costs from before.  Please let me know if you have any questions.\n\nThank you\n\nCasey Fennell\n508-216-6905\n\nhttps://www.dropbox.com/scl/fo/xr2hfzug0u67an315rmcn/AJz6c5HxUJ7EgyqOqGXvq0A?rlkey=vedo467kx74gvh8daco9p777i&st=glccooy0&dl=0",
+    "guidelines": {
+      "carrier_id": 80,
+      "carrier_name": "Mapfre Insurance",
+      "mrp_id": 3,
+      "mrp_name": "CCC"
+    }
+  },
+  {
+    "archetype_id": "pgm_supplemental_stc",
+    "archetype_label": "Program | Supplemental | STC",
+    "is_program": true,
+    "order_type": "Supplemental",
+    "job_type": "STC",
+    "job_details": {
+      "job_id": 50464,
+      "job_number": "730439 - STC",
+      "job_status": "Completed",
+      "insured_name": "Carvel Gardens Apartments",
+      "client_project_number": "DPDE-24-1008-E",
+      "client_poc": " ",
+      "insurance_carrier": "Hartford",
+      "insurance_claim_number": "cp24000861",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Supplemental",
+      "job_type": "STC",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 6631.43,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2024-10-22T12:03:43.509000+00:00",
+      "client_name": "PDR - DPDE",
+      "client_location": "Salisbury, MD"
+    },
+    "tasks": [
+      {
+        "task_id": 241520,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-10-23T08:03:00",
+        "date_received": "2024-10-22T08:03:43.509000",
+        "date_info_available": "2024-10-22T08:03:00",
+        "task_creation_date": "2024-10-22T00:00:00",
+        "task_age_days": 267,
+        "days_past_due": 266,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Cameron Caccavale"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "Attachments - Final Draft, Photos, Tick Sheet\n\nPer Joe --\n\n\nplease add soot cleaning to my mitigation estimate based off the tic sheets uploaded",
+    "guidelines": {
+      "carrier_id": 60,
+      "carrier_name": "Hartford",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "pgm_supplemental_str",
+    "archetype_label": "Program | Supplemental | STR",
+    "is_program": true,
+    "order_type": "Supplemental",
+    "job_type": "STR",
+    "job_details": {
+      "job_id": 58541,
+      "job_number": "736703 - STR",
+      "job_status": "Completed",
+      "insured_name": "Victor Gomez",
+      "client_project_number": "24-0285-REC",
+      "client_poc": null,
+      "insurance_carrier": "Allstate",
+      "insurance_claim_number": "0764629812",
+      "managed_repair_program": "Alacrity (Nexxus)",
+      "estimation_software": "Xactimate",
+      "order_type": "Supplemental",
+      "job_type": "STR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 82888.72,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Medium (50k-100k)",
+      "date_request_received": "2025-05-02T22:00:13+00:00",
+      "client_name": "National Flood & Fire Network - UT",
+      "client_location": "Utah"
+    },
+    "tasks": [
+      {
+        "task_id": 281727,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-05T18:00:00",
+        "date_received": "2025-05-02T18:00:13",
+        "date_info_available": "2025-05-02T18:00:00",
+        "task_creation_date": "2025-05-02T00:00:00",
+        "task_age_days": 75,
+        "days_past_due": 72,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Tiffany Hoover"
+      },
+      {
+        "task_id": 282257,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "TPA",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-05-07T19:16:39",
+        "date_received": "2025-05-06T19:16:39",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2025-05-06T00:00:00",
+        "task_age_days": 71,
+        "days_past_due": 70,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Tiffany Hoover"
+      },
+      {
+        "task_id": 288240,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "TPA",
+        "is_cancelled": null,
+        "is_urgent": false,
+        "date_due": "2025-06-11T12:02:00",
+        "date_received": "2025-06-10T12:02:00",
+        "date_info_available": "2025-06-10T12:02:00",
+        "task_creation_date": "2025-06-10T00:00:00",
+        "task_age_days": 36,
+        "days_past_due": 35,
+        "priority_category": "Standard",
+        "task_type_key": 8,
+        "task_type_name": "Revision",
+        "assigned_to_name": "Tiffany Hoover"
+      }
+    ],
+    "linked_systems": [
+      {
+        "system_id": 11,
+        "system_name": "Docusketch"
+      }
+    ],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "** Supplemental request - WeScope did not write original **\n\n** Supplement scopes attached\n\nClient John -\n\nCan you please write a supplement for this estimate.  \n\nI made a new tab under documents, \"Master Supplements\" \n\nThose are all the items that need to be supplemented. \n\nIf you have any questions reach out to the PM Andrew.",
+    "guidelines": {
+      "carrier_id": 6,
+      "carrier_name": "Allstate",
+      "mrp_id": 1,
+      "mrp_name": "Alacrity (Nexxus)"
+    }
+  },
+  {
+    "archetype_id": "pgm_supplemental_tmp",
+    "archetype_label": "Program | Supplemental | TMP",
+    "is_program": true,
+    "order_type": "Supplemental",
+    "job_type": "TMP",
+    "job_details": {
+      "job_id": 33593,
+      "job_number": "716392 - TMP",
+      "job_status": "Completed",
+      "insured_name": "Jasu Padhya",
+      "client_project_number": "SOCA-23-0374-E",
+      "client_poc": "",
+      "insurance_carrier": "Liberty Mutual",
+      "insurance_claim_number": "054852370",
+      "managed_repair_program": "Paul Davis Corp",
+      "estimation_software": "Symbility",
+      "order_type": "Supplemental",
+      "job_type": "TMP",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 3574.69,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2024-01-11T21:35:00+00:00",
+      "client_name": "PDR - SOCA",
+      "client_location": "Fredericksburg, VA"
+    },
+    "tasks": [
+      {
+        "task_id": 155832,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": "",
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2024-01-15T16:35:00",
+        "date_received": "2024-01-15T16:35:00",
+        "date_info_available": "1969-12-31T19:00:00",
+        "task_creation_date": "2024-01-12T00:00:00",
+        "task_age_days": 551,
+        "days_past_due": 548,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Chad Lewis"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "- Client Johnny -\n\nAlso, I have a separate estimate in symbility for emergency board up and roof tarping. Can you review to see if there are any additional items that I need to add?",
+    "guidelines": {
+      "carrier_id": 145,
+      "carrier_name": "Liberty Mutual",
+      "mrp_id": 8,
+      "mrp_name": "Paul Davis Corp"
+    }
+  },
+  {
+    "archetype_id": "pgm_supplemental_wtr",
+    "archetype_label": "Program | Supplemental | WTR",
+    "is_program": true,
+    "order_type": "Supplemental",
+    "job_type": "WTR",
+    "job_details": {
+      "job_id": 58472,
+      "job_number": "736649 - WTR",
+      "job_status": "Completed",
+      "insured_name": "Neil Blair",
+      "client_project_number": "826-25-00649-WTR",
+      "client_poc": null,
+      "insurance_carrier": "N/A",
+      "insurance_claim_number": "",
+      "managed_repair_program": "No programs",
+      "estimation_software": "Xactimate",
+      "order_type": "Supplemental",
+      "job_type": "WTR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 3294.54,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "Micro (<10k)",
+      "date_request_received": "2025-05-01T16:15:12+00:00",
+      "client_name": "1-800 Water Damage of WA and OR",
+      "client_location": ","
+    },
+    "tasks": [
+      {
+        "task_id": 281387,
+        "task_name": null,
+        "task_status": "Completed",
+        "task_status_desc": "Completed",
+        "revision_type": null,
+        "is_cancelled": false,
+        "is_urgent": false,
+        "date_due": "2025-05-02T12:15:00",
+        "date_received": "2025-05-01T12:15:12",
+        "date_info_available": "2025-05-01T12:15:00",
+        "task_creation_date": "2025-05-01T00:00:00",
+        "task_age_days": 76,
+        "days_past_due": 75,
+        "priority_category": "Standard",
+        "task_type_key": 9,
+        "task_type_name": "Supplemental",
+        "assigned_to_name": "Houston Spears"
+      }
+    ],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": true,
+      "rooms": [
+        {
+          "name": "Master Bedroom",
+          "items": [
+            "Drywall",
+            "Carpet",
+            "Baseboards"
+          ]
+        },
+        {
+          "name": "Kitchen",
+          "items": [
+            "Cabinets",
+            "Flooring",
+            "Countertop"
+          ]
+        },
+        {
+          "name": "Living Room",
+          "items": [
+            "Drywall",
+            "Paint",
+            "Carpet"
+          ]
+        }
+      ]
+    },
+    "notes": "attachments - WTR estimate pdf, esx, WA, COS, Sub invoice - photos in PSA\n\n***Scope ----- \nCould you guys please review Neil Blair, we have already built internally\nbut wanting to see if you guys could duplicate and see any\nadditional potential missing items\n\nThanks,\n\n\n\n-- \n--\nAnthony Laney\n*1-800 Water Damage - Vancouver / Portland*\n1200 NE 112th Avenue\nPO Box 822796\nVancouver, WA  98684\n360.737.9819 - Vancouver Office\n503.603.9111 - Portland Office\n*360.737.7677  EMERGENCY 24/7/365*\nhttps://www.1800waterdamage.com/vancouver-wa/\nCell:  971-770-8700\n\nwww.1800waterdamage.com\n_\n[image: 4e832988-2163-4db1-a7bc-7de0ce28aa7d.png]\n\n--\nIMPORTANT: This transmission is sent on behalf of 1-800 Water Damage -\nVancouver / Portland, it is privileged, proprietary and/or confidential. It\nis intended only for the intended recipient. If you are not the intended\nrecipient or a person responsible for delivering this transmission to the\nintended recipient, you may not disclose, copy or distribute this\ntransmission, or take any action in reliance on it. If you received this\ntransmission in error, please notify us immediately by telephone at (360)\n737-9819  or by email to tamara.tanuvasa@1800waterdamage.com, and please\ndispose of and delete this transmission.\n\n1-800 Water Damage YouTube Channel\n<https://www.youtube.com/watch?v=3XOSrABhxNw>",
+    "guidelines": {
+      "carrier_id": 138,
+      "carrier_name": "N/A",
+      "mrp_id": 15,
+      "mrp_name": "No programs"
+    }
+  },
+  {
+    "archetype_id": "np_scope_str",
+    "archetype_label": "Non-Program | Scope | STR",
+    "is_program": false,
+    "order_type": "Scope",
+    "job_type": "STR",
+    "job_details": {
+      "job_id": 21580,
+      "job_number": "707299 - STR",
+      "job_status": "Completed",
+      "insured_name": "Nikolay Zuyev and Irina Kuleshova",
+      "client_project_number": "",
+      "client_poc": "",
+      "insurance_carrier": null,
+      "insurance_claim_number": "",
+      "managed_repair_program": null,
+      "estimation_software": "Xactimate",
+      "order_type": "Scope",
+      "job_type": "STR",
+      "is_large_loss": false,
+      "is_urgent": false,
+      "current_estimate_value": 0.0,
+      "estimated_rooms": 0,
+      "estimated_bathrooms": 0,
+      "estimated_kitchens": 0,
+      "estimate_size_category": "No Estimate",
+      "date_request_received": "2023-07-14T19:34:01+00:00",
+      "client_name": "Donan",
+      "client_location": "Kentucky"
+    },
+    "tasks": [],
+    "linked_systems": [],
+    "has_matterport": false,
+    "has_companycam": false,
+    "has_crm": false,
+    "loss_summary": {
+      "has_data": false,
+      "rooms": []
+    },
+    "notes": "No notes available.",
+    "guidelines": {
+      "carrier_id": 0,
+      "carrier_name": null,
+      "mrp_id": 0,
+      "mrp_name": null
+    }
+  }
+]
