@@ -1,389 +1,268 @@
-import { useState, useCallback, useRef, useMemo } from 'react'
-import { Responsive, WidthProvider, type Layouts, type Layout } from 'react-grid-layout'
-import { Download, LayoutGrid, ChevronDown, RotateCcw } from 'lucide-react'
-import archetypes from './data/archetypes.json'
-import type { FieldConfig } from './widgets/WidgetShell'
+import React, { useState } from 'react';
+import { Responsive, WidthProvider, type Layout, type Layouts } from 'react-grid-layout';
+import { Plus, LayoutGrid, RotateCcw, Download, Database, MessageSquare } from 'lucide-react';
+import FieldSidebar from './components/FieldSidebar';
+import DynamicWidget from './components/DynamicWidget';
+import archetypes from './data/archetypes.json';
 
-import JobDetailsWidget from './widgets/JobDetailsWidget'
-import TasksTableWidget from './widgets/TasksTableWidget'
-import LossSummaryWidget from './widgets/LossSummaryWidget'
-import InsuranceGuidelinesWidget from './widgets/InsuranceGuidelinesWidget'
-import LinksWidget from './widgets/LinksWidget'
-import FilesWidget from './widgets/FilesWidget'
-import JobNotesWidget from './widgets/JobNotesWidget'
-import JobTimelineWidget from './widgets/JobTimelineWidget'
-import ActionPaneWidget from './widgets/ActionPaneWidget'
+const ResponsiveGrid = WidthProvider(Responsive);
 
-const ResponsiveGrid = WidthProvider(Responsive)
-
-// ─── Grid constants (24-col for fine-grained resizing) ───────────
-const BREAKPOINTS = { lg: 1200, md: 768, sm: 480 }
-const COLS        = { lg: 24,   md: 16,  sm: 4 }
-const ROW_HEIGHT  = 28
-
-// ─── Widget registry ─────────────────────────────────────────────
-const WIDGET_IDS = [
-  'job-details', 'insurance-guidelines', 'loss-summary',
-  'links', 'files', 'tasks-details', 'job-notes', 'job-timeline', 'action-pane',
-] as const
-
-const WIDGET_LABELS: Record<string, string> = {
-  'job-details':          'Job Details',
-  'insurance-guidelines': 'Insurance & Guidelines',
-  'loss-summary':         'Loss Summary',
-  'links':                'Links & Integrations',
-  'files':                'Files',
-  'tasks-details':        'Tasks Table',
-  'job-notes':            'Job Notes',
-  'job-timeline':         'Timeline',
-  'action-pane':          'Action Pane / Sidebar',
+interface WidgetData {
+  id: string;
+  title: string;
+  fields: string[];
 }
 
-// ─── Per-widget field configs (what can be toggled) ──────────────
-const WIDGET_FIELD_CONFIGS: Record<string, FieldConfig[]> = {
-  'job-details': [
-    { id: 'insured_name',       label: 'Insured Name' },
-    { id: 'client_proj',        label: 'Client Project #' },
-    { id: 'client_poc',         label: 'Client POC' },
-    { id: 'job_type',           label: 'Job Type' },
-    { id: 'order_type',         label: 'Order Type' },
-    { id: 'insurance_carrier',  label: 'Insurance Carrier' },
-    { id: 'claim_number',       label: 'Claim #' },
-    { id: 'mrp',                label: 'Managed Repair Program' },
-    { id: 'est_software',       label: 'Estimation Software' },
-    { id: 'client_name',        label: 'Client Name' },
-    { id: 'location',           label: 'Location' },
-    { id: 'date_received',      label: 'Date Received' },
-    { id: 'est_value',          label: 'Estimate Value' },
-    { id: 'size_category',      label: 'Size Category' },
-    { id: 'rooms',              label: 'Rooms / Bath / Kitchen' },
-    { id: 'job_id',             label: 'Job ID' },
-    { id: 'flags',              label: 'Flags (Urgent/Large Loss)' },
-  ],
-  'tasks-details': [
-    { id: 'type',          label: 'Type' },
-    { id: 'status',        label: 'Status' },
-    { id: 'assigned_to',   label: 'Assigned To' },
-    { id: 'received',      label: 'Date Received' },
-    { id: 'due_date',      label: 'Due Date' },
-    { id: 'age',           label: 'Age (days)' },
-    { id: 'past_due',      label: 'Past Due' },
-    { id: 'priority',      label: 'Priority' },
-    { id: 'expand_detail', label: 'Expandable Details' },
-  ],
-  'insurance-guidelines': [
-    { id: 'carrier',    label: 'Insurance Carrier Card' },
-    { id: 'mrp',        label: 'Managed Repair Program Card' },
-    { id: 'guidelines', label: 'Guidelines Available Banner' },
-  ],
-  'loss-summary': [
-    { id: 'rooms', label: 'Room Breakdown Cards' },
-    { id: 'items', label: 'Item Tags' },
-  ],
-  'links': [
-    { id: 'status_badges',   label: 'Quick Status Badges' },
-    { id: 'system_list',     label: 'System List' },
-  ],
-  'files': [
-    { id: 'breadcrumb',   label: 'Breadcrumb Path' },
-    { id: 'folder_tree',  label: 'Folder Tree' },
-    { id: 'actions',      label: 'Upload/Download Actions' },
-  ],
-  'job-notes': [
-    { id: 'search',   label: 'Search Bar' },
-    { id: 'content',  label: 'Notes Content' },
-  ],
-  'job-timeline': [
-    { id: 'intake_event', label: 'Intake Event' },
-    { id: 'task_events',  label: 'Task Events' },
-  ],
-  'action-pane': [
-    { id: 'quick_actions',  label: 'Quick Action Buttons' },
-    { id: 'integrations',   label: 'Integration Status' },
-    { id: 'dialog_router',  label: 'Dialog Router Map' },
-    { id: 'rbac',           label: 'RBAC Gates Reference' },
-  ],
-}
+export default function App() {
+  const [widgets, setWidgets] = useState<WidgetData[]>([]);
+  const [mainLayouts, setMainLayouts] = useState<Layouts>({ lg: [] });
+  const [innerLayouts, setInnerLayouts] = useState<Record<string, Layout[]>>({});
+  const [selectedArchetypeIndex, setSelectedArchetypeIndex] = useState(0);
+  const [comments, setComments] = useState<{
+    page: string;
+    widgets: Record<string, string>;
+    fields: Record<string, string>;
+  }>({ page: '', widgets: {}, fields: {} });
+  const [showPageComment, setShowPageComment] = useState(false);
 
-// ─── Default layouts ─────────────────────────────────────────────
-const DEFAULT_LAYOUTS: Layouts = {
-  lg: [
-    { i: 'job-details',           x: 0,  y: 0,  w: 16, h: 6,  minW: 4, minH: 2 },
-    { i: 'action-pane',           x: 16, y: 0,  w: 8,  h: 14, minW: 4, minH: 2 },
-    { i: 'insurance-guidelines',  x: 0,  y: 6,  w: 16, h: 5,  minW: 4, minH: 2 },
-    { i: 'loss-summary',          x: 0,  y: 11, w: 16, h: 6,  minW: 4, minH: 2 },
-    { i: 'links',                 x: 0,  y: 17, w: 8,  h: 8,  minW: 3, minH: 2 },
-    { i: 'files',                 x: 8,  y: 17, w: 8,  h: 8,  minW: 3, minH: 2 },
-    { i: 'job-notes',             x: 16, y: 14, w: 8,  h: 11, minW: 4, minH: 2 },
-    { i: 'job-timeline',          x: 0,  y: 25, w: 24, h: 5,  minW: 4, minH: 2 },
-    { i: 'tasks-details',         x: 0,  y: 30, w: 24, h: 12, minW: 6, minH: 3 },
-  ],
-  md: [
-    { i: 'job-details',           x: 0,  y: 0,  w: 16, h: 7,  minW: 4, minH: 2 },
-    { i: 'insurance-guidelines',  x: 0,  y: 7,  w: 16, h: 5,  minW: 4, minH: 2 },
-    { i: 'loss-summary',          x: 0,  y: 12, w: 16, h: 6,  minW: 4, minH: 2 },
-    { i: 'links',                 x: 0,  y: 18, w: 8,  h: 7,  minW: 3, minH: 2 },
-    { i: 'files',                 x: 8,  y: 18, w: 8,  h: 7,  minW: 3, minH: 2 },
-    { i: 'action-pane',           x: 0,  y: 25, w: 16, h: 8,  minW: 4, minH: 2 },
-    { i: 'job-notes',             x: 0,  y: 33, w: 16, h: 8,  minW: 4, minH: 2 },
-    { i: 'job-timeline',          x: 0,  y: 41, w: 16, h: 5,  minW: 4, minH: 2 },
-    { i: 'tasks-details',         x: 0,  y: 46, w: 16, h: 12, minW: 6, minH: 3 },
-  ],
-  sm: [
-    { i: 'job-details',           x: 0, y: 0,  w: 4, h: 9,  minW: 4, minH: 2, static: true },
-    { i: 'insurance-guidelines',  x: 0, y: 9,  w: 4, h: 5,  minW: 4, minH: 2, static: true },
-    { i: 'loss-summary',          x: 0, y: 14, w: 4, h: 6,  minW: 4, minH: 2, static: true },
-    { i: 'links',                 x: 0, y: 20, w: 4, h: 7,  minW: 4, minH: 2, static: true },
-    { i: 'files',                 x: 0, y: 27, w: 4, h: 7,  minW: 4, minH: 2, static: true },
-    { i: 'action-pane',           x: 0, y: 34, w: 4, h: 8,  minW: 4, minH: 2, static: true },
-    { i: 'job-notes',             x: 0, y: 42, w: 4, h: 8,  minW: 4, minH: 2, static: true },
-    { i: 'job-timeline',          x: 0, y: 50, w: 4, h: 5,  minW: 4, minH: 2, static: true },
-    { i: 'tasks-details',         x: 0, y: 55, w: 4, h: 14, minW: 4, minH: 3, static: true },
-  ],
-}
+  const handleAddWidget = () => {
+    const newId = `widget-${Date.now()}`;
+    setWidgets(prev => [...prev, { id: newId, title: 'New Widget', fields: [] }]);
+    setMainLayouts(prev => {
+      const currentLg = prev.lg || [];
+      // Calculate next available Y
+      let maxY = 0;
+      currentLg.forEach(l => { if (l.y + l.h > maxY) maxY = l.y + l.h; });
+      return {
+        ...prev,
+        lg: [...currentLg, { i: newId, x: 0, y: maxY, w: 8, h: 8, minW: 4, minH: 4 }]
+      };
+    });
+    setInnerLayouts(prev => ({ ...prev, [newId]: [] }));
+  };
 
-// ─── Initialize default visible fields (all on) ─────────────────
-function initVisibleFields(): Record<string, Set<string>> {
-  const result: Record<string, Set<string>> = {}
-  for (const [widgetId, fields] of Object.entries(WIDGET_FIELD_CONFIGS)) {
-    result[widgetId] = new Set(fields.map(f => f.id))
-  }
-  return result
-}
+  const handleRemoveWidget = (widgetId: string) => {
+    setWidgets(prev => prev.filter(w => w.id !== widgetId));
+    setMainLayouts(prev => ({
+      ...prev,
+      lg: (prev.lg || []).filter(l => l.i !== widgetId)
+    }));
+    setInnerLayouts(prev => {
+      const newLayouts = { ...prev };
+      delete newLayouts[widgetId];
+      return newLayouts;
+    });
+  };
 
-// ─── Types ───────────────────────────────────────────────────────
-type WidgetFeedback = Record<string, string>
+  const handleTitleChange = (widgetId: string, newTitle: string) => {
+    setWidgets(prev => prev.map(w => w.id === widgetId ? { ...w, title: newTitle } : w));
+  };
 
-function App() {
-  const [selectedIndex, setSelectedIndex] = useState(0)
-  const [layouts, setLayouts] = useState<Layouts>(DEFAULT_LAYOUTS)
-  const layoutsRef = useRef<Layouts>(layouts)
-  const [feedback, setFeedback] = useState<WidgetFeedback>({})
-  const [visibleFields, setVisibleFields] = useState<Record<string, Set<string>>>(initVisibleFields)
-
-  const archetype = (archetypes as any[])[selectedIndex]
-
-  // ─── Layout change handler ────────────────────────────────────
-  const handleLayoutChange = useCallback((_current: Layout[], allLayouts: Layouts) => {
-    layoutsRef.current = allLayouts
-    setLayouts(allLayouts)
-  }, [])
-
-  // ─── Feedback handler ─────────────────────────────────────────
-  const handleFeedbackChange = useCallback((widgetId: string, text: string) => {
-    setFeedback(prev => ({ ...prev, [widgetId]: text }))
-  }, [])
-
-  // ─── Field visibility handler ─────────────────────────────────
-  const handleVisibleFieldsChange = useCallback((widgetId: string, fields: Set<string>) => {
-    setVisibleFields(prev => ({ ...prev, [widgetId]: fields }))
-  }, [])
-
-  // ─── Reset all ────────────────────────────────────────────────
-  const handleResetLayout = useCallback(() => {
-    setLayouts({ ...DEFAULT_LAYOUTS })
-    layoutsRef.current = { ...DEFAULT_LAYOUTS }
-    setVisibleFields(initVisibleFields())
-    setFeedback({})
-  }, [])
-
-  // ─── Export layout + feedback + field visibility ──────────────
-  const handleExportLayout = useCallback(() => {
-    const fieldVisibilityExport: Record<string, { visible: string[]; hidden: string[] }> = {}
-    for (const [wid, configs] of Object.entries(WIDGET_FIELD_CONFIGS)) {
-      const vis = visibleFields[wid] || new Set()
-      fieldVisibilityExport[wid] = {
-        visible: configs.filter(f => vis.has(f.id)).map(f => f.id),
-        hidden: configs.filter(f => !vis.has(f.id)).map(f => f.id),
+  const handleDropField = (widgetId: string, fieldId: string, layoutItem: Layout) => {
+    setWidgets(prev => prev.map(w => {
+      if (w.id === widgetId && !w.fields.includes(fieldId)) {
+        return { ...w, fields: [...w.fields, fieldId] };
       }
-    }
+      return w;
+    }));
+    
+    setInnerLayouts(prev => {
+      const currentLayout = prev[widgetId] || [];
+      return {
+        ...prev,
+        [widgetId]: [...currentLayout, { ...layoutItem, i: fieldId }]
+      };
+    });
+  };
 
-    const exportPayload = {
-      exported_at: new Date().toISOString(),
-      archetype_id: archetype.archetype_id,
-      archetype_label: archetype.archetype_label,
-      grid_config: { breakpoints: BREAKPOINTS, cols: COLS, rowHeight: ROW_HEIGHT },
-      layouts: layoutsRef.current,
-      field_visibility: fieldVisibilityExport,
-      widget_feedback: Object.entries(feedback)
-        .filter(([, v]) => v.trim().length > 0)
-        .map(([widgetId, comment]) => ({
-          widget_id: widgetId,
-          widget_label: WIDGET_LABELS[widgetId] || widgetId,
-          comment,
-        })),
-    }
-    const blob = new Blob([JSON.stringify(exportPayload, null, 2)], { type: 'application/json' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = `canvas_export_${archetype.archetype_id}_${Date.now()}.json`
-    a.click()
-    URL.revokeObjectURL(url)
-  }, [archetype, feedback, visibleFields])
+  const handleRemoveField = (widgetId: string, fieldId: string) => {
+    setWidgets(prev => prev.map(w => {
+      if (w.id === widgetId) {
+        return { ...w, fields: w.fields.filter(f => f !== fieldId) };
+      }
+      return w;
+    }));
+    
+    setInnerLayouts(prev => {
+      const currentLayout = prev[widgetId] || [];
+      return {
+        ...prev,
+        [widgetId]: currentLayout.filter(l => l.i !== fieldId)
+      };
+    });
+  };
 
-  const feedbackCount = Object.values(feedback).filter(v => v.trim().length > 0).length
-  const hiddenFieldCount = useMemo(() => {
-    let count = 0
-    for (const [wid, configs] of Object.entries(WIDGET_FIELD_CONFIGS)) {
-      const vis = visibleFields[wid]
-      if (vis) count += configs.length - vis.size
-    }
-    return count
-  }, [visibleFields])
+  const handleInnerLayoutChange = (widgetId: string, newLayout: Layout[]) => {
+    setInnerLayouts(prev => ({ ...prev, [widgetId]: newLayout }));
+  };
 
-  // ─── Shared props builder ─────────────────────────────────────
-  const shellProps = (widgetId: string) => ({
-    widgetId,
-    fieldConfigs: WIDGET_FIELD_CONFIGS[widgetId] || [],
-    visibleFields: visibleFields[widgetId] || new Set<string>(),
-    onVisibleFieldsChange: handleVisibleFieldsChange,
-    feedback: feedback[widgetId] || '',
-    onFeedbackChange: handleFeedbackChange,
-  })
+  const handleReset = () => {
+    if (confirm("Are you sure you want to reset the entire layout?")) {
+      setWidgets([]);
+      setMainLayouts({ lg: [] });
+      setInnerLayouts({});
+    }
+  };
+
+  const handleExportLayout = () => {
+    const exportData = {
+      widgets,
+      mainLayouts,
+      innerLayouts,
+      comments
+    };
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData, null, 2));
+    const downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href",     dataStr);
+    downloadAnchorNode.setAttribute("download", "job_page_layout.json");
+    document.body.appendChild(downloadAnchorNode);
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+  };
+
+  const usedFieldIds = React.useMemo(() => {
+    const set = new Set<string>();
+    widgets.forEach(w => w.fields.forEach(f => set.add(f)));
+    return set;
+  }, [widgets]);
+
+  const currentArchetype = archetypes[selectedArchetypeIndex];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-surface-50 via-white to-brand-50/20">
-      {/* ─── Fixed Header Bar ───────────────────────────────────── */}
-      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-surface-200 shadow-sm">
-        <div className="max-w-[1800px] mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-brand-600 text-white">
-              <LayoutGrid size={18} />
+    <div className="h-screen w-screen flex bg-gray-100 overflow-hidden text-gray-900 font-sans">
+      {/* Left Sidebar */}
+      <FieldSidebar usedFieldIds={usedFieldIds} />
+
+      {/* Main Canvas */}
+      <div className="flex-1 flex flex-col h-full overflow-hidden relative z-0">
+        {/* Header */}
+        <div className="bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between shrink-0 overflow-x-auto gap-4">
+          <div className="flex items-center gap-3 shrink-0">
+            <div className="bg-blue-50 p-2 rounded-lg hidden sm:block">
+              <LayoutGrid className="w-5 h-5 text-blue-600" />
             </div>
             <div>
-              <h1 className="text-base font-bold text-surface-900 leading-tight">Job Page Canvas</h1>
-              <p className="text-xs text-surface-400">
-                Layout Sandbox v3
-                {feedbackCount > 0 && <span className="text-amber-500 ml-2">{feedbackCount} comments</span>}
-                {hiddenFieldCount > 0 && <span className="text-brand-500 ml-2">{hiddenFieldCount} fields hidden</span>}
-              </p>
+              <h1 className="text-lg font-bold text-gray-900 leading-tight whitespace-nowrap">Job Page Builder</h1>
+              <p className="text-sm text-gray-500 hidden md:block whitespace-nowrap">Drag fields from the sidebar into widgets.</p>
             </div>
           </div>
-
-          {/* Center -- Archetype Selector */}
-          <div className="flex items-center gap-3">
-            <label className="text-xs font-medium text-surface-500 uppercase tracking-wider">Archetype</label>
-            <div className="relative">
+          
+          <div className="flex items-center gap-2 shrink-0">
+            <button
+              onClick={() => setShowPageComment(!showPageComment)}
+              className="flex items-center gap-1.5 px-2.5 py-1.5 text-sm font-medium text-blue-600 hover:bg-blue-50 rounded-md transition-colors border border-blue-200 whitespace-nowrap"
+            >
+              <MessageSquare className="w-4 h-4" />
+              <span className="hidden sm:inline">Page Note</span>
+            </button>
+            <div className="relative flex items-center border border-gray-300 rounded-md bg-white mr-1">
+              <div className="pl-2 pr-1 text-gray-500">
+                <Database className="h-4 w-4" />
+              </div>
               <select
-                id="archetype-select"
-                value={selectedIndex}
-                onChange={(e) => setSelectedIndex(Number(e.target.value))}
-                className="appearance-none bg-surface-50 border border-surface-200 text-surface-800 text-sm font-medium rounded-lg pl-4 pr-10 py-2 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all min-w-[360px] cursor-pointer hover:border-surface-300"
+                className="py-1.5 pr-7 pl-1 text-sm bg-transparent border-none outline-none focus:ring-0 text-gray-700 cursor-pointer appearance-none max-w-[150px] sm:max-w-xs truncate"
+                value={selectedArchetypeIndex}
+                onChange={(e) => setSelectedArchetypeIndex(Number(e.target.value))}
               >
-                {(archetypes as any[]).map((a: any, i: number) => (
-                  <option key={a.archetype_id} value={i}>
-                    {a.is_program ? '[PGM]' : '[ NP ]'} {a.order_type} - {a.job_type} | {a.job_details.job_number}
+                {archetypes.map((arch, idx) => (
+                  <option key={arch.archetype_id} value={idx}>
+                    Preview: {arch.archetype_label}
                   </option>
                 ))}
               </select>
-              <ChevronDown size={16} className="absolute right-3 top-1/2 -translate-y-1/2 text-surface-400 pointer-events-none" />
             </div>
-          </div>
-
-          {/* Right -- Actions */}
-          <div className="flex items-center gap-2">
+            
             <button
-              onClick={handleResetLayout}
-              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg border border-surface-200 text-surface-600 text-sm font-medium hover:bg-surface-50 transition-all"
-              title="Reset layout, fields, and feedback"
-            >
-              <RotateCcw size={14} />
-              Reset All
-            </button>
-            <button
-              id="export-layout-btn"
               onClick={handleExportLayout}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-brand-600 text-white text-sm font-semibold hover:bg-brand-700 active:bg-brand-800 transition-all shadow-sm hover:shadow-md"
+              className="flex items-center gap-1.5 px-2.5 py-1.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-md border border-gray-200 transition-colors whitespace-nowrap"
             >
-              <Download size={16} />
-              Export Layout
+              <Download className="w-4 h-4" />
+              <span className="hidden sm:inline">Export</span>
+            </button>
+            <button
+              onClick={handleReset}
+              className="flex items-center gap-1.5 px-2.5 py-1.5 text-sm font-medium text-gray-600 hover:text-red-600 hover:bg-red-50 rounded-md transition-colors whitespace-nowrap"
+            >
+              <RotateCcw className="w-4 h-4" />
+              <span className="hidden sm:inline">Reset</span>
+            </button>
+            <button
+              onClick={handleAddWidget}
+              className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-600 text-white text-sm font-medium rounded-md shadow-sm hover:bg-blue-700 transition-colors whitespace-nowrap"
+            >
+              <Plus className="w-4 h-4" />
+              <span>Add Widget</span>
             </button>
           </div>
         </div>
-      </header>
 
-      {/* ─── Job Header ─────────────────────────────────────────── */}
-      <div className="max-w-[1800px] mx-auto px-6 pt-5 pb-2">
-        <div className="flex items-center gap-3">
-          <h2 className="text-2xl font-bold text-surface-900">{archetype.job_details.job_number}</h2>
-          {archetype.job_details.is_urgent && <span className="badge badge-red">URGENT</span>}
-          {archetype.job_details.is_large_loss && <span className="badge badge-purple">LARGE LOSS</span>}
-          <span className="badge badge-green">{archetype.job_details.job_status}</span>
-          <span className="badge badge-blue">{archetype.order_type}</span>
+        {/* Canvas Area */}
+        <div className="flex-1 overflow-y-auto w-full relative">
+          {showPageComment && (
+            <div className="mx-8 mt-4 mb-2 bg-yellow-50 border border-yellow-200 rounded-md p-3 shadow-sm relative">
+              <label className="block text-xs font-semibold text-yellow-800 uppercase tracking-wider mb-1">Page Feedback</label>
+              <textarea
+                className="w-full bg-white border border-yellow-300 rounded p-2 text-sm focus:ring-2 focus:ring-yellow-400 outline-none resize-y min-h-[60px]"
+                placeholder="Enter feedback for the entire page..."
+                value={comments.page}
+                onChange={(e) => setComments(prev => ({ ...prev, page: e.target.value }))}
+              />
+            </div>
+          )}
+          {widgets.length === 0 ? (
+            <div className="h-full w-full flex flex-col items-center justify-center border-2 border-dashed border-gray-300 rounded-xl bg-white/50">
+              <div className="p-4 bg-gray-100 rounded-full mb-4">
+                <LayoutGrid className="h-8 w-8 text-gray-400" />
+              </div>
+              <h2 className="text-lg font-medium text-gray-800 mb-2">Canvas is Empty</h2>
+              <p className="text-gray-500 max-w-sm text-center mb-6">
+                Get started by adding an empty widget box, then drag fields into it from the palette.
+              </p>
+              <button
+                onClick={handleAddWidget}
+                className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-md shadow-sm hover:bg-blue-700 transition-colors"
+              >
+                <Plus className="w-4 h-4" />
+                Add First Widget
+              </button>
+            </div>
+          ) : (
+            <ResponsiveGrid
+              className="main-layout-grid"
+              layouts={mainLayouts}
+              breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
+              cols={{ lg: 24, md: 24, sm: 24, xs: 24, xxs: 24 }}
+              rowHeight={28}
+              onLayoutChange={(layout, layouts) => setMainLayouts(layouts)}
+              draggableHandle=".widget-drag-handle"
+              compactType="vertical"
+              margin={[16, 16]}
+              containerPadding={[0, 0]}
+            >
+              {widgets.map(widget => (
+                <div key={widget.id} className="relative h-full w-full">
+                  <DynamicWidget
+                    widgetId={widget.id}
+                    title={widget.title}
+                    fields={widget.fields}
+                    innerLayout={innerLayouts[widget.id] || []}
+                    archetypeData={currentArchetype}
+                    widgetComment={comments.widgets[widget.id] || ''}
+                    onWidgetCommentChange={(c) => setComments(prev => ({ ...prev, widgets: { ...prev.widgets, [widget.id]: c } }))}
+                    fieldComments={comments.fields}
+                    onFieldCommentChange={(fId, c) => setComments(prev => ({ ...prev, fields: { ...prev.fields, [fId]: c } }))}
+                    onTitleChange={(title) => handleTitleChange(widget.id, title)}
+                    onRemoveWidget={() => handleRemoveWidget(widget.id)}
+                    onDropField={(fieldId, layoutItem) => handleDropField(widget.id, fieldId, layoutItem)}
+                    onInnerLayoutChange={(layout) => handleInnerLayoutChange(widget.id, layout)}
+                    onRemoveField={(fieldId) => handleRemoveField(widget.id, fieldId)}
+                  />
+                </div>
+              ))}
+            </ResponsiveGrid>
+          )}
         </div>
-        <p className="text-sm text-surface-500 mt-1">
-          {archetype.job_details.client_name}
-          {archetype.job_details.client_location && <span className="text-surface-300 mx-2">|</span>}
-          {archetype.job_details.client_location}
-          <span className="text-surface-300 mx-2">|</span>
-          <span className="font-mono text-xs">{archetype.archetype_id}</span>
-        </p>
-      </div>
-
-      {/* ─── Grid Canvas ────────────────────────────────────────── */}
-      <div className="max-w-[1800px] mx-auto px-6 pb-12">
-        <ResponsiveGrid
-          layouts={layouts}
-          breakpoints={BREAKPOINTS}
-          cols={COLS}
-          rowHeight={ROW_HEIGHT}
-          onLayoutChange={handleLayoutChange}
-          draggableHandle=".widget-drag-handle"
-          useCSSTransforms
-          compactType="vertical"
-          margin={[12, 12]}
-        >
-          <div key="job-details">
-            <JobDetailsWidget data={archetype.job_details} {...shellProps('job-details')} />
-          </div>
-          <div key="action-pane">
-            <ActionPaneWidget
-              tasks={archetype.tasks}
-              hasMatterport={archetype.has_matterport}
-              hasCompanyCam={archetype.has_companycam}
-              hasCrm={archetype.has_crm}
-              jobType={archetype.job_type}
-              orderType={archetype.order_type}
-              {...shellProps('action-pane')}
-            />
-          </div>
-          <div key="insurance-guidelines">
-            <InsuranceGuidelinesWidget data={archetype.guidelines} {...shellProps('insurance-guidelines')} />
-          </div>
-          <div key="loss-summary">
-            <LossSummaryWidget data={archetype.loss_summary} jobType={archetype.job_type} {...shellProps('loss-summary')} />
-          </div>
-          <div key="links">
-            <LinksWidget
-              linkedSystems={archetype.linked_systems}
-              hasMatterport={archetype.has_matterport}
-              hasCompanyCam={archetype.has_companycam}
-              hasCrm={archetype.has_crm}
-              {...shellProps('links')}
-            />
-          </div>
-          <div key="files">
-            <FilesWidget jobNumber={archetype.job_details.job_number} {...shellProps('files')} />
-          </div>
-          <div key="job-notes">
-            <JobNotesWidget notes={archetype.notes} jobNumber={archetype.job_details.job_number} {...shellProps('job-notes')} />
-          </div>
-          <div key="job-timeline">
-            <JobTimelineWidget
-              tasks={archetype.tasks}
-              dateRequestReceived={archetype.job_details.date_request_received}
-              estimateValue={archetype.job_details.current_estimate_value}
-              {...shellProps('job-timeline')}
-            />
-          </div>
-          <div key="tasks-details">
-            <TasksTableWidget tasks={archetype.tasks} {...shellProps('tasks-details')} />
-          </div>
-        </ResponsiveGrid>
       </div>
     </div>
-  )
+  );
 }
-
-export default App
