@@ -59,6 +59,11 @@ export default function DynamicWidget({
     if (!fieldId) return;
     if (fields.includes(fieldId)) return;
 
+    // Prevent duplicate processing from both handlers firing
+    const now = Date.now();
+    if ((window as any).__lastDropTime && now - (window as any).__lastDropTime < 100) return;
+    (window as any).__lastDropTime = now;
+
     const fieldDef = AVAILABLE_FIELDS.find(f => f.id === fieldId);
     
     // Calculate new position
@@ -85,14 +90,13 @@ export default function DynamicWidget({
   };
 
   const handleRGLDrop = (layout: Layout[], item: Layout, e: Event) => {
-    const dragEvent = e as unknown as DragEvent;
-    const fieldId = dragEvent.dataTransfer?.getData('text/plain');
+    const fieldId = (window as any).__draggedFieldId;
     processDrop(fieldId, e, item);
   };
 
   const handleNativeDrop = (e: React.DragEvent) => {
     e.preventDefault();
-    const fieldId = e.dataTransfer.getData('text/plain');
+    const fieldId = (window as any).__draggedFieldId || e.dataTransfer.getData('text/plain');
     processDrop(fieldId, e);
   };
 
@@ -164,13 +168,11 @@ export default function DynamicWidget({
           fields.length === 0 && "flex items-center justify-center border-2 border-dashed border-gray-200 m-2 rounded-lg bg-gray-50/50"
         )}
         ref={gridContainerRef}
+        onDragOver={(e) => e.preventDefault()}
+        onDrop={handleNativeDrop}
       >
         {fields.length === 0 ? (
-          <div 
-            className="text-center p-4 w-full h-full flex flex-col items-center justify-center bg-gray-50/50"
-            onDragOver={(e) => e.preventDefault()}
-            onDrop={handleNativeDrop}
-          >
+          <div className="text-center p-4 w-full h-full flex flex-col items-center justify-center bg-gray-50/50 pointer-events-none">
             <p className="text-sm text-gray-500 font-medium">Empty Widget</p>
             <p className="text-xs text-gray-400 mt-1">Drag fields from the sidebar and drop them here.</p>
           </div>
@@ -231,23 +233,6 @@ export default function DynamicWidget({
               </div>
             ))}
           </ResponsiveGrid>
-        )}
-
-        {/* This invisible overlay acts as a drop target when the grid is empty, 
-            or extends the droppable area below the grid items */}
-        {fields.length > 0 && (
-          <div 
-            className="absolute inset-0 pointer-events-none"
-            onDragOver={(e) => {
-              // Only allow drop if we're not over the grid items
-              // RGL handles its own drops
-              e.preventDefault();
-            }}
-            onDrop={(e) => {
-              // If the drop event reached here, RGL didn't catch it
-              handleNativeDrop(e);
-            }}
-          />
         )}
       </div>
     </div>

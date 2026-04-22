@@ -83,6 +83,10 @@ export default function FieldSidebar({ usedFieldIds = new Set<string>() }: { use
                           }
                           e.dataTransfer.setData('text/plain', field.id);
                           e.dataTransfer.effectAllowed = 'copy';
+                          (window as any).__draggedFieldId = field.id;
+                        }}
+                        onDragEnd={() => {
+                          (window as any).__draggedFieldId = null;
                         }}
                         className={cn(
                           "flex items-center gap-2 p-2 rounded-md text-sm",
