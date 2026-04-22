@@ -86,7 +86,9 @@ export default function FieldSidebar({ usedFieldIds = new Set<string>() }: { use
                           (window as any).__draggedFieldId = field.id;
                         }}
                         onDragEnd={() => {
-                          (window as any).__draggedFieldId = null;
+                          setTimeout(() => {
+                            (window as any).__draggedFieldId = null;
+                          }, 100);
                         }}
                         className={cn(
                           "flex items-center gap-2 p-2 rounded-md text-sm",

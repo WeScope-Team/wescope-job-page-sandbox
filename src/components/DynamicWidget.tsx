@@ -90,7 +90,7 @@ export default function DynamicWidget({
   };
 
   const handleRGLDrop = (layout: Layout[], item: Layout, e: Event) => {
-    const fieldId = (window as any).__draggedFieldId;
+    const fieldId = (window as any).__draggedFieldId || (e as any).dataTransfer?.getData('text/plain');
     processDrop(fieldId, e, item);
   };
 
